@@ -1,6 +1,7 @@
-"""Rota 77: produtos diversificados do Mercado Livre → Telegram.
+"""Rota 77: Ofertas Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
 Bloqueio por ID, item_id e fingerprint de título.
 Horário SP: 07h–22h.
+Inclui o recurso 'Luck Lock' (Achado da Sorte).
 """
 import os, json, html, re, random, datetime as dt
 from pathlib import Path
@@ -25,86 +26,76 @@ STOPWORDS = {
     "o", "a", "os", "as", "no", "na", "nos", "nas", "ao", "à", "ou", "x", "un",
     "unidades", "unidade", "kit", "original", "novo", "nova", "preto", "branco",
     "azul", "vermelho", "cor", "tamanho", "ml", "kg", "g", "cm", "mm", "w",
+    "carro", "moto", "par", "jogo", "universal"
 }
 
 GRUPOS = [
     {
-        "nome": "Eletrônicos e Informática",
-        "cats": ["MLB1000", "MLB1051", "MLB1648", "MLB1144"],
+        "nome": "Acessórios Internos e Conforto",
+        "cats": ["MLB1743", "MLB1744"],
         "queries": [
-            "tv led smart", "fone bluetooth", "carregador turbo", "smartwatch",
-            "caixa de som bluetooth", "mouse gamer", "teclado sem fio",
-            "webcam full hd", "ssd 1tb", "pendrive 128gb", "tablet android",
-            "power bank", "cabo usb c", "suporte notebook", "notebook",
-            "monitor gamer", "impressora", "roteador wifi", "hd externo",
-            "controle xbox", "jogo ps5", "echo dot", "chromecast",
+            "jogo de tapete carro", "capa de banco automotiva", "suporte celular carro",
+            "organizador porta malas", "capa de volante", "aromatizante automotivo",
+            "almofada pescoço carro", "insulfilm antivandalismo", "lixeira para carro",
         ],
     },
     {
-        "nome": "Casa, Móveis e Eletrodomésticos",
-        "cats": ["MLB1574", "MLB5726"],
+        "nome": "Som, Eletrônicos e Conectividade",
+        "cats": ["MLB1000", "MLB1743"],
         "queries": [
-            "armário", "guarda roupa", "sofá", "mesa de jantar", "cama box",
-            "estante", "rack tv", "air fryer", "liquidificador",
-            "aspirador de pó", "ventilador de teto", "ferro de passar",
-            "panela de pressão", "jogo de lençol", "organizador closet",
-            "cortina", "tapete sala", "luminária de mesa", "geladeira",
-            "máquina de lavar", "microondas", "cafeteira", "sanduicheira",
-            "frigideira antiaderente", "jogo de panelas", "organizador cozinha",
+            "central multimídia android", "radio bluetooth automotivo", "camera de re",
+            "sensor de estacionamento", "carregador veicular turbo", "rastreador veicular gps",
+            "modulo amplificador", "alto falante porta", "alarme automotivo",
         ],
     },
     {
-        "nome": "Moda, Calçados e Acessórios",
-        "cats": ["MLB1430", "MLB3937"],
+        "nome": "Cuidados e Estética Automotiva",
+        "cats": ["MLB1743"],
         "queries": [
-            "tênis", "sapato social", "sandália", "chinelo",
-            "calça jeans", "calça legging", "camisa", "camiseta",
-            "mochila", "bolsa", "carteira", "cinto",
-            "relógio", "óculos de sol", "jaqueta", "bermuda",
-            "vestido", "blusa feminina", "tênis corrida", "boné",
+            "cera cristalizadora", "shampoo automotivo neutro", "pretinho pneu",
+            "pano microfibra detalhamento", "politriz automotiva", "revitalizador de plasticos",
+            "limpa estofados", "luva microfibra lavagem", "kit estetica automotiva",
         ],
     },
     {
-        "nome": "Esportes, Beleza e Saúde",
-        "cats": ["MLB1276", "MLB1246", "MLB264586"],
+        "nome": "Mecânica, Peças e Iluminação",
+        "cats": ["MLB1743"],
         "queries": [
-            "whey protein", "creatina", "colchonete academia", "halter",
-            "perfume", "kit skincare", "shampoo", "escova de cabelo",
-            "bicicleta", "bola futebol", "garrafa térmica",
-            "creme hidratante", "protetor solar", "secador de cabelo",
+            "lampada led super branca", "palheta limpador parabrisa", "filtro de oleo",
+            "oleo 5w30 sintético", "aditivo radiador concentrado", "kit pastilha de freio",
+            "reparador de pneu spray", "vela de ignição iridium", "capa protetora carro",
         ],
     },
     {
-        "nome": "Bebês, Brinquedos e Papelaria",
-        "cats": ["MLB1384", "MLB1132", "MLB1196"],
+        "nome": "Motos - Equipamentos e Acessórios",
+        "cats": ["MLB1743", "MLB3803"],
         "queries": [
-            "fralda descartável", "carrinho de bebê",
-            "brinquedo educativo", "lego", "boneca",
-            "caderno universitário", "mochila escolar", "pelúcia",
+            "capacete moto", "luva motociclista", "capa de chuva motociclista",
+            "suporte celular moto", "trava de disco moto", "intercomunicador capacete",
+            "jaqueta motociclista", "bauleto moto", "baú moto com base",
         ],
     },
     {
-        "nome": "Ferramentas, Automotivo e Pet",
-        "cats": ["MLB407134", "MLB1743", "MLB1071"],
+        "nome": "Ferramentas e Manutenção Veicular",
+        "cats": ["MLB407134", "MLB1743"],
         "queries": [
-            "furadeira", "kit ferramentas",
-            "ração cachorro", "ração gato", "arranhador gato",
-            "coleira", "cama pet", "lanterna led", "tomada inteligente",
+            "jogo de soquetes catraca", "torquimetro", "macaco hidraulico jacaré",
+            "calibrador pneu digital", "carregador de bateria automotivo", "chave de roda cruz",
+            "multimetro automotivo", "compressor de ar veicular 12v", "pistola de pintura",
         ],
     },
 ]
 
 CAT_NOMES = {
-    "MLB1051": "Celulares", "MLB1430": "Moda", "MLB1144": "Games",
-    "MLB1000": "Eletrônicos", "MLB1276": "Esportes", "MLB1648": "Informática",
-    "MLB1246": "Beleza", "MLB5726": "Eletrodomésticos", "MLB1132": "Brinquedos",
-    "MLB1574": "Casa", "MLB3937": "Relógios", "MLB1384": "Bebês",
-    "MLB1196": "Papelaria", "MLB407134": "Ferramentas", "MLB1743": "Automotivo",
-    "MLB1071": "Pet Shop", "MLB264586": "Saúde",
+    "MLB1743": "Acessórios Veiculares",
+    "MLB1744": "Interior Veicular",
+    "MLB3803": "Capacetes e Acessórios",
+    "MLB407134": "Ferramentas",
+    "MLB1000": "Eletrônicos",
 }
 
 S = requests.Session()
-S.headers.update({"User-Agent": "rota-77/1.0", "Accept": "application/json"})
+S.headers.update({"User-Agent": "rota-77-auto/1.0", "Accept": "application/json"})
 
 
 def headers_ml():
@@ -313,6 +304,7 @@ def montar_produto(pid, h, categoria):
     return {
         "id": str(pid), "titulo": titulo, "preco": preco, "imagem": foto,
         "frete_gratis": frete, "categoria": categoria, "link": link, "item_id": item_id,
+        "is_luck_lock": False,
     }
 
 
@@ -334,6 +326,7 @@ def produto_de_search_item(item, categoria_label):
         "frete_gratis": frete, "categoria": categoria_label,
         "link": link_afiliado(f"https://produto.mercadolivre.com.br/{mid_fmt}"),
         "item_id": mid,
+        "is_luck_lock": False,
     }
 
 
@@ -370,7 +363,7 @@ def _ja_visto(vistos_ids, vistos_fps, pid, mid, titulo):
 def buscar_varios_query(query, cat_id, h, vistos_ids, vistos_fps, label, quantos):
     achados = []
     try:
-        offset = random.choice([20, 30, 40, 50, 60, 80, 100, 120])
+        offset = random.choice([0, 10, 20, 30, 40])
         params = {
             "q": query, "limit": 50, "offset": offset,
             "sort": random.choice(["relevance", "price_asc", "sold_quantity_desc"]),
@@ -470,6 +463,12 @@ def montar_diversificado(h, estado):
         print(f"Grupo {grupo['nome']}: buscando até {n} (bloqueados: {len(vistos_ids)} ids)")
         novos = varios_do_grupo(grupo, h, vistos_ids, vistos_fps, n)
         escolhidos.extend(novos)
+    
+    if escolhidos:
+        sorteado = random.choice(escolhidos)
+        sorteado["is_luck_lock"] = True
+        print(f"🍀 Luck Lock ativado para: {sorteado['titulo'][:50]}")
+
     return escolhidos
 
 
@@ -484,8 +483,14 @@ def postar(p):
     link = html.escape(p["link"])
     frete_linha = "🚚 <b>Frete grátis</b>\n" if p.get("frete_gratis") else ""
     preco_label = f"a partir de <b>{preco}</b>" if p.get("item_id") else f"<b>{preco}</b>"
+    
+    if p.get("is_luck_lock"):
+        cabecalho = "🍀 <b>Rota 77 — Achado da Sorte (Luck Lock)</b> 🍀"
+    else:
+        cabecalho = f"🏎️ <b>Rota 77 — {cat}</b>"
+
     texto = (
-        f"🛣️ <b>Rota 77 — {cat}</b>\n\n"
+        f"{cabecalho}\n\n"
         f"📦 {titulo}\n\n"
         f"💰 {preco_label}\n"
         f"{frete_linha}"
@@ -518,7 +523,7 @@ def salvar_estado(estado):
 
 def main():
     agora = dt.datetime.now(TZ)
-    print("Iniciando Rota 77", agora.isoformat())
+    print("Iniciando Rota 77 Automotivo", agora.isoformat())
     print(f"Meta: {POSTS_POR_GRUPO}/grupo, máx {MAX_POSTS} | bloqueio {REPETIR_APOS_DIAS} dias")
     h = headers_ml()
     if not h:
