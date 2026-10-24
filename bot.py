@@ -1,4 +1,4 @@
-"""Rota 77: Ofertas Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
+"""Rota 77: Ofertas Exclusivamente Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
 Bloqueio por ID, item_id e fingerprint de título.
 Horário SP: 07h–22h.
 Inclui o recurso 'Luck Lock' (Achado da Sorte).
@@ -32,66 +32,62 @@ STOPWORDS = {
 GRUPOS = [
     {
         "nome": "Acessórios Internos e Conforto",
-        "cats": ["MLB1743", "MLB1744"],
-        "queries": [
-            "jogo de tapete carro", "capa de banco automotiva", "suporte celular carro",
-            "organizador porta malas", "capa de volante", "aromatizante automotivo",
-            "almofada pescoço carro", "insulfilm antivandalismo", "lixeira para carro",
-        ],
-    },
-    {
-        "nome": "Som, Eletrônicos e Conectividade",
-        "cats": ["MLB1000", "MLB1743"],
-        "queries": [
-            "central multimídia android", "radio bluetooth automotivo", "camera de re",
-            "sensor de estacionamento", "carregador veicular turbo", "rastreador veicular gps",
-            "modulo amplificador", "alto falante porta", "alarme automotivo",
-        ],
-    },
-    {
-        "nome": "Cuidados e Estética Automotiva",
         "cats": ["MLB1743"],
         "queries": [
-            "cera cristalizadora", "shampoo automotivo neutro", "pretinho pneu",
-            "pano microfibra detalhamento", "politriz automotiva", "revitalizador de plasticos",
-            "limpa estofados", "luva microfibra lavagem", "kit estetica automotiva",
+            "jogo tapete carro automotivo", "capa banco automotiva", "suporte celular carro veicular",
+            "organizador porta malas carro", "capa volante automotiva", "aromatizante automotivo carro",
+            "lixeira para carro automotiva", "insulfilm automotivo",
         ],
     },
     {
-        "nome": "Mecânica, Peças e Iluminação",
+        "nome": "Som e Eletrônicos Veiculares",
         "cats": ["MLB1743"],
         "queries": [
-            "lampada led super branca", "palheta limpador parabrisa", "filtro de oleo",
-            "oleo 5w30 sintético", "aditivo radiador concentrado", "kit pastilha de freio",
-            "reparador de pneu spray", "vela de ignição iridium", "capa protetora carro",
+            "central multimidia automotiva", "radio bluetooth automotivo", "camera de re automotiva",
+            "sensor de estacionamento carro", "carregador veicular turbo carro", "rastreador veicular gps",
+            "modulo amplificador automotivo", "alto falante porta carro", "alarme automotivo carro",
         ],
     },
     {
-        "nome": "Motos - Equipamentos e Acessórios",
-        "cats": ["MLB1743", "MLB3803"],
+        "nome": "Estética e Cuidados Automotivos",
+        "cats": ["MLB1743"],
         "queries": [
-            "capacete moto", "luva motociclista", "capa de chuva motociclista",
-            "suporte celular moto", "trava de disco moto", "intercomunicador capacete",
-            "jaqueta motociclista", "bauleto moto", "baú moto com base",
+            "cera cristalizadora automotiva", "shampoo automotivo neutro carro", "pretinho pneu automotivo",
+            "pano microfibra automotivo detalhamento", "politriz automotiva carro", "revitalizador de plasticos automotivo",
+            "limpa estofados automotivo", "kit estetica automotiva carro",
         ],
     },
     {
-        "nome": "Ferramentas e Manutenção Veicular",
-        "cats": ["MLB407134", "MLB1743"],
+        "nome": "Peças, Óleos e Iluminação",
+        "cats": ["MLB1743"],
         "queries": [
-            "jogo de soquetes catraca", "torquimetro", "macaco hidraulico jacaré",
-            "calibrador pneu digital", "carregador de bateria automotivo", "chave de roda cruz",
-            "multimetro automotivo", "compressor de ar veicular 12v", "pistola de pintura",
+            "lampada led super branca automotiva", "palheta limpador parabrisa carro", "filtro de oleo automotivo",
+            "oleo 5w30 sintetico automotivo", "aditivo radiador concentrado carro", "kit pastilha de freio carro",
+            "reparador de pneu spray automotivo", "vela de ignição iridium carro",
+        ],
+    },
+    {
+        "nome": "Equipamentos para Motos",
+        "cats": ["MLB1743"],
+        "queries": [
+            "capacete moto motociclista", "luva motociclista moto", "capa de chuva motociclista moto",
+            "suporte celular moto guidao", "trava de disco moto alarme", "intercomunicador capacete moto",
+            "jaqueta motociclista moto", "bauleto moto bau",
+        ],
+    },
+    {
+        "nome": "Ferramentas Automotivas",
+        "cats": ["MLB1743"],
+        "queries": [
+            "jogo de soquetes catraca automotivo", "torquimetro automotivo", "macaco hidraulico jacare automotivo",
+            "calibrador pneu digital veicular", "carregador de bateria automotivo 12v", "chave de roda cruz automotiva",
+            "compressor de ar veicular 12v carro", "scanner automotivo obd2",
         ],
     },
 ]
 
 CAT_NOMES = {
     "MLB1743": "Acessórios Veiculares",
-    "MLB1744": "Interior Veicular",
-    "MLB3803": "Capacetes e Acessórios",
-    "MLB407134": "Ferramentas",
-    "MLB1000": "Eletrônicos",
 }
 
 S = requests.Session()
@@ -363,13 +359,13 @@ def _ja_visto(vistos_ids, vistos_fps, pid, mid, titulo):
 def buscar_varios_query(query, cat_id, h, vistos_ids, vistos_fps, label, quantos):
     achados = []
     try:
-        offset = random.choice([0, 10, 20, 30, 40])
+        # Posição inicial levemente variada para garantir novos produtos
+        offset = random.choice([0, 10, 20])
         params = {
             "q": query, "limit": 50, "offset": offset,
-            "sort": random.choice(["relevance", "price_asc", "sold_quantity_desc"]),
+            "category": "MLB1743", # Força categoria 'Acessórios para Veículos'
+            "sort": random.choice(["relevance", "sold_quantity_desc"]),
         }
-        if cat_id:
-            params["category"] = cat_id
         r = S.get(f"{API}/sites/MLB/search", headers=h, params=params, timeout=25)
         if r.status_code != 200:
             return achados
@@ -400,34 +396,6 @@ def buscar_varios_query(query, cat_id, h, vistos_ids, vistos_fps, label, quantos
     return achados
 
 
-def buscar_varios_highlights(cat_id, h, vistos_ids, vistos_fps, quantos):
-    nome = CAT_NOMES.get(cat_id, cat_id)
-    achados = []
-    try:
-        r = S.get(f"{API}/highlights/MLB/category/{cat_id}", headers=h, timeout=20)
-        if r.status_code != 200:
-            return achados
-        items = list(r.json().get("content", [])[:40])
-        random.shuffle(items)
-        for item in items:
-            if len(achados) >= quantos:
-                break
-            pid = str(item.get("id") or "")
-            if not pid or pid in vistos_ids:
-                continue
-            p = montar_produto(pid, h, nome)
-            if not p:
-                continue
-            if _ja_visto(vistos_ids, vistos_fps, p["id"], str(p.get("item_id") or ""), p["titulo"]):
-                continue
-            _marcar_visto(vistos_ids, vistos_fps, p)
-            achados.append(p)
-            print(f"  OK [{nome}/hl] R$ {p['preco']:.2f} — {p['titulo'][:50]}")
-    except Exception as e:
-        print(f"Erro highlights {nome}:", e)
-    return achados
-
-
 def varios_do_grupo(grupo, h, vistos_ids, vistos_fps, quantos):
     achados = []
     queries = list(grupo.get("queries", []))
@@ -436,16 +404,8 @@ def varios_do_grupo(grupo, h, vistos_ids, vistos_fps, quantos):
         if len(achados) >= quantos:
             break
         falta = quantos - len(achados)
-        cat = random.choice(grupo["cats"]) if grupo["cats"] else None
-        novos = buscar_varios_query(q, cat, h, vistos_ids, vistos_fps, grupo["nome"], falta)
+        novos = buscar_varios_query(q, "MLB1743", h, vistos_ids, vistos_fps, grupo["nome"], falta)
         achados.extend(novos)
-    if len(achados) < quantos:
-        for cat_id in grupo["cats"]:
-            if len(achados) >= quantos:
-                break
-            falta = quantos - len(achados)
-            novos = buscar_varios_highlights(cat_id, h, vistos_ids, vistos_fps, falta)
-            achados.extend(novos)
     return achados
 
 
