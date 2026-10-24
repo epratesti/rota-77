@@ -1,4 +1,4 @@
-"""Rota 77: Ofertas Exclusivamente Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
+"""Rota 77: Ofertas Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
 Bloqueio por ID, item_id e fingerprint de título.
 Horário SP: 07h–22h.
 Inclui o recurso 'Luck Lock' (Achado da Sorte).
@@ -32,7 +32,7 @@ STOPWORDS = {
 GRUPOS = [
     {
         "nome": "Acessórios Internos e Conforto",
-        "cats": ["MLB1743"],
+        "cats": ["MLB1743", "MLB1744"],
         "queries": [
             "jogo tapete carro automotivo", "capa banco automotiva", "suporte celular carro veicular",
             "organizador porta malas carro", "capa volante automotiva", "aromatizante automotivo carro",
@@ -41,7 +41,7 @@ GRUPOS = [
     },
     {
         "nome": "Som e Eletrônicos Veiculares",
-        "cats": ["MLB1743"],
+        "cats": ["MLB1743", "MLB1000"],
         "queries": [
             "central multimidia automotiva", "radio bluetooth automotivo", "camera de re automotiva",
             "sensor de estacionamento carro", "carregador veicular turbo carro", "rastreador veicular gps",
@@ -59,7 +59,7 @@ GRUPOS = [
     },
     {
         "nome": "Peças, Óleos e Iluminação",
-        "cats": ["MLB1743"],
+        "cats": ["MLB1743", "MLB1744"],
         "queries": [
             "lampada led super branca automotiva", "palheta limpador parabrisa carro", "filtro de oleo automotivo",
             "oleo 5w30 sintetico automotivo", "aditivo radiador concentrado carro", "kit pastilha de freio carro",
@@ -68,7 +68,7 @@ GRUPOS = [
     },
     {
         "nome": "Equipamentos para Motos",
-        "cats": ["MLB1743"],
+        "cats": ["MLB3803", "MLB1743"],
         "queries": [
             "capacete moto motociclista", "luva motociclista moto", "capa de chuva motociclista moto",
             "suporte celular moto guidao", "trava de disco moto alarme", "intercomunicador capacete moto",
@@ -77,7 +77,7 @@ GRUPOS = [
     },
     {
         "nome": "Ferramentas Automotivas",
-        "cats": ["MLB1743"],
+        "cats": ["MLB407134", "MLB1743"],
         "queries": [
             "jogo de soquetes catraca automotivo", "torquimetro automotivo", "macaco hidraulico jacare automotivo",
             "calibrador pneu digital veicular", "carregador de bateria automotivo 12v", "chave de roda cruz automotiva",
@@ -88,6 +88,10 @@ GRUPOS = [
 
 CAT_NOMES = {
     "MLB1743": "Acessórios Veiculares",
+    "MLB1744": "Peças de Carros",
+    "MLB3803": "Capacetes e Motos",
+    "MLB407134": "Ferramentas",
+    "MLB1000": "Eletrônicos",
 }
 
 S = requests.Session()
@@ -359,13 +363,13 @@ def _ja_visto(vistos_ids, vistos_fps, pid, mid, titulo):
 def buscar_varios_query(query, cat_id, h, vistos_ids, vistos_fps, label, quantos):
     achados = []
     try:
-        # Posição inicial levemente variada para garantir novos produtos
-        offset = random.choice([0, 10, 20])
+        offset = random.choice([0, 10, 20, 30, 50])
         params = {
             "q": query, "limit": 50, "offset": offset,
-            "category": "MLB1743", # Força categoria 'Acessórios para Veículos'
-            "sort": random.choice(["relevance", "sold_quantity_desc"]),
+            "sort": random.choice(["relevance", "sold_quantity_desc", "price_asc"]),
         }
+        if cat_id:
+            params["category"] = cat_id
         r = S.get(f"{API}/sites/MLB/search", headers=h, params=params, timeout=25)
         if r.status_code != 200:
             return achados
@@ -404,7 +408,8 @@ def varios_do_grupo(grupo, h, vistos_ids, vistos_fps, quantos):
         if len(achados) >= quantos:
             break
         falta = quantos - len(achados)
-        novos = buscar_varios_query(q, "MLB1743", h, vistos_ids, vistos_fps, grupo["nome"], falta)
+        cat = random.choice(grupo["cats"]) if grupo["cats"] else None
+        novos = buscar_varios_query(q, cat, h, vistos_ids, vistos_fps, grupo["nome"], falta)
         achados.extend(novos)
     return achados
 
