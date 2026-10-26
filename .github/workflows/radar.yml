@@ -40,9 +40,9 @@ jobs:
           ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
           ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
           ML_AFFILIATE_ID: "71970283"
-          POSTS_POR_GRUPO: "1"
-          MAX_POSTS: "4"
-          REPETIR_APOS_DIAS: "14"
+          POSTS_POR_GRUPO: "2"
+          MAX_POSTS: "8"
+          REPETIR_APOS_DIAS: "3"
 
       - name: Salvar dados (merge seguro do estado)
         run: |
