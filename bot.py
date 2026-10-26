@@ -1,6 +1,5 @@
-"""Rota 77: Ofertas Automotivas → Telegram.
-Estratégia: highlights por categoria (mais estável no GitHub Actions).
-Search só como fallback rápido (1 tentativa, sem loop longo).
+"""Rota 77: Ofertas Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
+Anti-403: retry, delay, User-Agent de browser, categoria MLB1747.
 Horário SP: 07h–22h.
 """
 import os, json, html, re, random, time, datetime as dt
@@ -21,15 +20,8 @@ TRENDS = ROOT / "docs" / "trends.json"
 STATE = ROOT / "state" / "posted.json"
 TZ = ZoneInfo("America/Sao_Paulo")
 
-# Categorias automotivas MLB (highlights costuma funcionar quando /search dá 403)
-CATS = [
-    ("MLB1747", "Acessórios para Veículos"),
-    ("MLB3381", "Áudio e Vídeo para Carros"),
-    ("MLB455185", "Peças de Carros e Caminhonetes"),
-    ("MLB1771", "Motos"),
-    ("MLB455186", "Peças de Moto"),
-    ("MLB2227", "Ferramentas"),
-]
+# Categoria raiz: Acessórios para Veículos (MLB)
+CAT_VEICULOS = "MLB1747"
 
 SINAL_AUTO = re.compile(
     r"\b(carro|carros|automotivo|automotiva|automotivos|veicular|ve[ií]culo|"
@@ -39,7 +31,7 @@ SINAL_AUTO = re.compile(
     r"tapete|capa de banco|volante|insulfilm|politriz|pretinho|cera|"
     r"macaco|torqu[ií]metro|soquete|catraca|scanner|obd|"
     r"carregador veicular|compressor|calibrador|palheta|limpador|"
-    r"parabrisa|estofado|chave de roda|jacar[eé]|hidr[aá]ulico)\b",
+    r"parabrisa|estofado|soquete|chave de roda)\b",
     re.I,
 )
 
@@ -51,17 +43,73 @@ BLOQUEIO = re.compile(
     re.I,
 )
 
-QUERIES_FALLBACK = [
-    "tapete automotivo",
-    "capacete moto",
-    "central multimídia carro",
-    "câmera de ré automotiva",
-    "cera automotiva",
-    "óleo 5w30",
-    "macaco hidráulico",
-    "bauleto moto",
-    "alarme automotivo",
-    "scanner obd2",
+GRUPOS = [
+    {
+        "nome": "Acessórios Internos e Conforto",
+        "queries": [
+            "tapete automotivo carro",
+            "capa de banco automotiva",
+            "suporte celular veicular",
+            "organizador porta malas carro",
+            "capa de volante carro",
+            "aromatizante automotivo",
+        ],
+    },
+    {
+        "nome": "Som e Eletrônicos Veiculares",
+        "queries": [
+            "central multimídia automotiva",
+            "rádio bluetooth carro",
+            "câmera de ré automotiva",
+            "sensor estacionamento carro",
+            "carregador veicular turbo",
+            "alarme automotivo",
+        ],
+    },
+    {
+        "nome": "Estética e Cuidados",
+        "queries": [
+            "cera automotiva carro",
+            "shampoo automotivo",
+            "pretinho pneu",
+            "pano microfibra automotivo",
+            "politriz automotiva",
+            "kit estética automotiva",
+        ],
+    },
+    {
+        "nome": "Peças, Óleos e Iluminação",
+        "queries": [
+            "lâmpada led automotiva",
+            "palheta limpador para-brisa",
+            "filtro de óleo automotivo",
+            "óleo 5w30 sintético",
+            "aditivo radiador carro",
+            "pastilha de freio carro",
+        ],
+    },
+    {
+        "nome": "Equipamentos para Motos",
+        "queries": [
+            "capacete moto integral",
+            "luva motociclista",
+            "capa de chuva moto",
+            "suporte celular moto",
+            "trava disco moto",
+            "bauleto moto",
+        ],
+    },
+    {
+        "nome": "Ferramentas Automotivas",
+        "queries": [
+            "jogo soquetes automotivo",
+            "torquímetro carro",
+            "macaco hidráulico jacaré",
+            "calibrador pneu digital",
+            "carregador bateria 12v carro",
+            "scanner OBD2 automotivo",
+        ],
+    },
 ]
 
 S = requests.Session()
@@ -71,7 +119,7 @@ S.headers.update({
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     ),
     "Accept": "application/json",
-    "Accept-Language": "pt-BR,pt;q=0.9",
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 })
 
 
@@ -111,8 +159,9 @@ def titulo_ok_automotivo(titulo: str) -> bool:
         return False
     if BLOQUEIO.search(titulo):
         return False
-    # Em highlights de cat automotiva, relaxa um pouco o sinal
-    return True if SINAL_AUTO.search(titulo) else False
+    if not SINAL_AUTO.search(titulo):
+        return False
+    return True
 
 
 def carregar_estado():
@@ -188,13 +237,25 @@ def escolher_oferta(results):
     return min(pool, key=lambda x: x["preco"])
 
 
-def ml_get(url, h, params=None):
-    try:
-        r = S.get(url, headers=h or {}, params=params, timeout=20)
-        return r
-    except Exception as e:
-        print(f"  Request erro: {e}")
-        return None
+def ml_get(url, h, params=None, tentativas=3):
+    """GET com retry em 403/429."""
+    last = None
+    for i in range(tentativas):
+        try:
+            r = S.get(url, headers=h or {}, params=params, timeout=25)
+            last = r
+            if r.status_code == 200:
+                return r
+            if r.status_code in (403, 429, 500, 502, 503):
+                espera = 2 + i * 2 + random.uniform(0.5, 1.5)
+                print(f"  HTTP {r.status_code} → retry em {espera:.1f}s ({i+1}/{tentativas})")
+                time.sleep(espera)
+                continue
+            return r
+        except Exception as e:
+            print(f"  Request erro: {e}")
+            time.sleep(2 + i)
+    return last
 
 
 def montar_produto(pid, h, categoria):
@@ -213,13 +274,8 @@ def montar_produto(pid, h, categoria):
                 )
     except Exception as e:
         print(f"  products/{pid}:", e)
-    if titulo and BLOQUEIO.search(titulo):
+    if not titulo_ok_automotivo(titulo):
         return None
-    # Em categoria automotiva, aceita se tiver sinal OU se veio de highlight de cat auto
-    if titulo and not SINAL_AUTO.search(titulo):
-        # ainda permite se categoria for claramente auto
-        if "moto" not in categoria.lower() and "veícul" not in categoria.lower() and "carro" not in categoria.lower() and "áudio" not in categoria.lower() and "peça" not in categoria.lower() and "ferrament" not in categoria.lower():
-            return None
     try:
         ri = ml_get(f"{API}/products/{pid}/items", h)
         if ri is not None and ri.status_code == 200:
@@ -252,9 +308,7 @@ def montar_produto(pid, h, categoria):
 
 def produto_de_search_item(item, categoria_label):
     titulo = item.get("title") or ""
-    if BLOQUEIO.search(titulo):
-        return None
-    if not SINAL_AUTO.search(titulo):
+    if not titulo_ok_automotivo(titulo):
         return None
     try:
         preco = float(item.get("price") or 0)
@@ -279,45 +333,30 @@ def produto_de_search_item(item, categoria_label):
     }
 
 
-def buscar_highlights(cat_id, nome, h, vistos_ids, vistos_titulos, quantos):
+def buscar_varios_query(query, h, vistos_ids, vistos_titulos, label, quantos):
     achados = []
-    r = ml_get(f"{API}/highlights/MLB/category/{cat_id}", h)
-    if r is None or r.status_code != 200:
-        print(f"  Highlights {cat_id} ({nome}): status {getattr(r, 'status_code', None)}")
-        return achados
-    try:
-        items = list(r.json().get("content", [])[:40])
-    except Exception:
-        return achados
-    random.shuffle(items)
-    for item in items:
-        if len(achados) >= quantos:
-            break
-        pid = item.get("id")
-        if not pid or pid in vistos_ids:
-            continue
-        p = montar_produto(pid, h, nome)
-        if not p:
-            continue
-        nt = normalizar_titulo(p["titulo"])
-        if nt and nt in vistos_titulos:
-            continue
-        vistos_ids.add(p["id"])
-        if nt:
-            vistos_titulos.add(nt)
-        achados.append(p)
-        print(f"  OK [hl/{nome}] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
-    return achados
-
-
-def buscar_por_categoria(cat_id, nome, h, vistos_ids, vistos_titulos, quantos):
-    """Lista itens da categoria (sem q) — às vezes passa quando search com q dá 403."""
-    achados = []
-    offset = random.choice([0, 10, 20, 30, 50])
-    params = {"category": cat_id, "limit": 50, "offset": offset, "sort": "relevance"}
+    offset = random.choice([0, 0, 10, 20, 30])
+    params = {
+        "q": query,
+        "category": CAT_VEICULOS,
+        "limit": 50,
+        "offset": offset,
+        "sort": random.choice(["relevance", "price_asc", "sold_quantity_desc"]),
+    }
+    # 1) com token + categoria
     r = ml_get(f"{API}/sites/MLB/search", h, params=params)
+    # 2) se 403, tenta sem Authorization
+    if r is None or r.status_code == 403:
+        print(f"  Search '{query}' com token falhou → tentando sem auth")
+        time.sleep(1.5)
+        r = ml_get(f"{API}/sites/MLB/search", {}, params=params)
+    # 3) se ainda falhar, tenta sem category
     if r is None or r.status_code != 200:
-        print(f"  Category search {cat_id}: status {getattr(r, 'status_code', None)}")
+        params2 = {k: v for k, v in params.items() if k != "category"}
+        time.sleep(1.5)
+        r = ml_get(f"{API}/sites/MLB/search", h or {}, params=params2)
+    if r is None or r.status_code != 200:
+        print(f"  Search '{query}' status {getattr(r, 'status_code', None)}")
         return achados
     try:
         results = r.json().get("results") or []
@@ -335,49 +374,30 @@ def buscar_por_categoria(cat_id, nome, h, vistos_ids, vistos_titulos, quantos):
             continue
         p = None
         if item.get("catalog_product_id"):
-            p = montar_produto(item["catalog_product_id"], h, nome)
+            p = montar_produto(item["catalog_product_id"], h, label)
         if not p:
-            p = produto_de_search_item(item, nome)
+            p = produto_de_search_item(item, label)
         if not p:
             continue
         vistos_ids.add(p["id"])
         if nt:
             vistos_titulos.add(nt)
         achados.append(p)
-        print(f"  OK [cat/{nome}] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
+        print(f"  OK [{label}] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
+    time.sleep(random.uniform(0.8, 1.6))  # evita rate limit
     return achados
 
 
-def buscar_query_rapida(query, h, vistos_ids, vistos_titulos, quantos):
-    """Uma tentativa só — sem retry longo."""
+def varios_do_grupo(grupo, h, vistos_ids, vistos_titulos, quantos):
     achados = []
-    params = {"q": query, "limit": 30, "offset": 0, "sort": "relevance"}
-    r = ml_get(f"{API}/sites/MLB/search", h, params=params)
-    if r is None or r.status_code != 200:
-        print(f"  Query '{query}': status {getattr(r, 'status_code', None)}")
-        return achados
-    try:
-        results = r.json().get("results") or []
-    except Exception:
-        return achados
-    random.shuffle(results)
-    for item in results:
+    queries = list(grupo.get("queries", []))
+    random.shuffle(queries)
+    for q in queries:
         if len(achados) >= quantos:
             break
-        pid = item.get("catalog_product_id") or item.get("id")
-        if not pid or str(pid) in vistos_ids:
-            continue
-        nt = normalizar_titulo(item.get("title") or "")
-        if nt and nt in vistos_titulos:
-            continue
-        p = produto_de_search_item(item, "Automotivo")
-        if not p:
-            continue
-        vistos_ids.add(p["id"])
-        if nt:
-            vistos_titulos.add(nt)
-        achados.append(p)
-        print(f"  OK [q] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
+        falta = quantos - len(achados)
+        novos = buscar_varios_query(q, h, vistos_ids, vistos_titulos, grupo["nome"], falta)
+        achados.extend(novos)
     return achados
 
 
@@ -385,44 +405,16 @@ def montar_diversificado(h, estado):
     vistos_ids = set(estado["ids"].keys())
     vistos_titulos = set(estado["titulos"].keys())
     escolhidos = []
-
-    cats = list(CATS)
-    random.shuffle(cats)
-
-    # 1) Highlights por categoria
-    for cat_id, nome in cats:
+    grupos = list(GRUPOS)
+    random.shuffle(grupos)
+    for grupo in grupos:
         if len(escolhidos) >= MAX_POSTS:
             break
-        falta = MAX_POSTS - len(escolhidos)
-        n = min(POSTS_POR_GRUPO, falta)
-        print(f"Highlights {nome} ({cat_id}): até {n}")
-        novos = buscar_highlights(cat_id, nome, h, vistos_ids, vistos_titulos, n)
+        n = min(POSTS_POR_GRUPO, MAX_POSTS - len(escolhidos))
+        print(f"Grupo {grupo['nome']}: buscando até {n}")
+        novos = varios_do_grupo(grupo, h, vistos_ids, vistos_titulos, n)
         escolhidos.extend(novos)
-        time.sleep(0.4)
-
-    # 2) Search só por category= (sem texto)
-    if len(escolhidos) < MAX_POSTS:
-        for cat_id, nome in cats:
-            if len(escolhidos) >= MAX_POSTS:
-                break
-            falta = MAX_POSTS - len(escolhidos)
-            print(f"Category list {nome}: até {falta}")
-            novos = buscar_por_categoria(cat_id, nome, h, vistos_ids, vistos_titulos, min(2, falta))
-            escolhidos.extend(novos)
-            time.sleep(0.4)
-
-    # 3) Queries curtas (1 tentativa cada)
-    if len(escolhidos) < MAX_POSTS:
-        qs = list(QUERIES_FALLBACK)
-        random.shuffle(qs)
-        for q in qs[:6]:
-            if len(escolhidos) >= MAX_POSTS:
-                break
-            falta = MAX_POSTS - len(escolhidos)
-            novos = buscar_query_rapida(q, h, vistos_ids, vistos_titulos, min(1, falta))
-            escolhidos.extend(novos)
-
-    return escolhidos[:MAX_POSTS]
+    return escolhidos
 
 
 def preco_br(v):
@@ -476,7 +468,7 @@ def salvar_estado(estado):
 def main():
     agora = dt.datetime.now(TZ)
     print("Iniciando Rota 77", agora.isoformat())
-    print(f"Meta: até {MAX_POSTS} posts (highlights + categorias)")
+    print(f"Meta: {POSTS_POR_GRUPO} por grupo, máx {MAX_POSTS} total")
     h = headers_ml()
     if not h:
         return
@@ -495,7 +487,7 @@ def main():
         encoding="utf-8",
     )
     if not ranking:
-        print("Nada a postar — se só 403, IP do GitHub Actions está bloqueado pelo ML")
+        print("Nada a postar")
         salvar_estado(estado)
         return
     if not (TG_TOKEN and TG_CHAT):
@@ -515,7 +507,7 @@ def main():
             registrar_postado(estado, p["id"], p["titulo"], agora)
             enviados += 1
             salvar_estado(estado)
-            time.sleep(1.0)
+            time.sleep(1.2)
     salvar_estado(estado)
     print("Postagens enviadas:", enviados)
 
