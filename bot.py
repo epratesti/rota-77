@@ -1,8 +1,8 @@
 """Rota 77: Ofertas Automotivas (Carros, Motos, Peças e Ferramentas) → Telegram.
-Bloqueio por ID, item_id e fingerprint de título.
+Anti-403: retry, delay, User-Agent de browser, categoria MLB1747.
 Horário SP: 07h–22h.
 """
-import os, json, html, re, random, datetime as dt
+import os, json, html, re, random, time, datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import requests
@@ -20,24 +20,26 @@ TRENDS = ROOT / "docs" / "trends.json"
 STATE = ROOT / "state" / "posted.json"
 TZ = ZoneInfo("America/Sao_Paulo")
 
-# Palavras que indicam produto automotivo (obrigatório pelo menos uma)
+# Categoria raiz: Acessórios para Veículos (MLB)
+CAT_VEICULOS = "MLB1747"
+
 SINAL_AUTO = re.compile(
-    r"\b(carro|carros|automotivo|automotiva|automotivos|veicular|veículo|veiculo|"
-    r"moto|motos|motocicleta|motociclista|capacete|bauleto|guidão|guidao|"
-    r"pneu|pneus|óleo|oleo|filtro|pastilha|freio|radiador|vela|ignição|ignicao|"
-    r"multimidia|multimídia|câmera de ré|camera de re|alarme|rastreador|"
+    r"\b(carro|carros|automotivo|automotiva|automotivos|veicular|ve[ií]culo|"
+    r"moto|motos|motocicleta|motociclista|capacete|bauleto|guid[aã]o|"
+    r"pneu|pneus|[oó]leo|filtro|pastilha|freio|radiador|vela|igni[cç][aã]o|"
+    r"multim[ií]dia|c[aâ]mera de r[eé]|camera de re|alarme|rastreador|"
     r"tapete|capa de banco|volante|insulfilm|politriz|pretinho|cera|"
-    r"macaco|torquímetro|torquimetro|soquete|catraca|scanner|obd|"
-    r"carregador veicular|compressor|calibrador|palheta|limpador)\b",
+    r"macaco|torqu[ií]metro|soquete|catraca|scanner|obd|"
+    r"carregador veicular|compressor|calibrador|palheta|limpador|"
+    r"parabrisa|estofado|soquete|chave de roda)\b",
     re.I,
 )
 
-# Produtos que NÃO devem aparecer (fora do nicho)
 BLOQUEIO = re.compile(
-    r"\b(papel higi[eê]nico|fralda|shampoo cabelo|batom|maquiagem|vestido|"
-    r"blusa feminina|tênis corrida|whey|creatina|fone de ouvido bluetooth|"
-    r"caixa de som boombox|ventilador de coluna|liquidificador|air fryer|"
-    r"smartwatch|rel[oó]gio de parede|brinquedo|boneca)\b",
+    r"\b(papel higi[eê]nico|fralda|batom|maquiagem|vestido|blusa feminina|"
+    r"t[eê]nis corrida|whey|creatina|fone de ouvido|caixa de som boombox|"
+    r"ventilador de coluna|liquidificador|air fryer|smartwatch|"
+    r"rel[oó]gio de parede|brinquedo|boneca|coleira|antiparasit)\b",
     re.I,
 )
 
@@ -45,86 +47,80 @@ GRUPOS = [
     {
         "nome": "Acessórios Internos e Conforto",
         "queries": [
-            "jogo tapete carro automotivo",
-            "capa banco automotiva",
-            "suporte celular carro veicular",
+            "tapete automotivo carro",
+            "capa de banco automotiva",
+            "suporte celular veicular",
             "organizador porta malas carro",
-            "capa volante automotiva",
-            "aromatizante automotivo carro",
-            "lixeira para carro automotiva",
-            "insulfilm automotivo",
+            "capa de volante carro",
+            "aromatizante automotivo",
         ],
     },
     {
         "nome": "Som e Eletrônicos Veiculares",
         "queries": [
-            "central multimidia automotiva",
-            "radio bluetooth automotivo",
-            "camera de re automotiva",
-            "sensor de estacionamento carro",
-            "carregador veicular turbo carro",
-            "rastreador veicular gps",
-            "modulo amplificador automotivo",
-            "alto falante porta carro",
-            "alarme automotivo carro",
+            "central multimídia automotiva",
+            "rádio bluetooth carro",
+            "câmera de ré automotiva",
+            "sensor estacionamento carro",
+            "carregador veicular turbo",
+            "alarme automotivo",
         ],
     },
     {
-        "nome": "Estética e Cuidados Automotivos",
+        "nome": "Estética e Cuidados",
         "queries": [
-            "cera cristalizadora automotiva",
-            "shampoo automotivo neutro carro",
-            "pretinho pneu automotivo",
-            "pano microfibra automotivo detalhamento",
-            "politriz automotiva carro",
-            "revitalizador de plasticos automotivo",
-            "limpa estofados automotivo",
-            "kit estetica automotiva carro",
+            "cera automotiva carro",
+            "shampoo automotivo",
+            "pretinho pneu",
+            "pano microfibra automotivo",
+            "politriz automotiva",
+            "kit estética automotiva",
         ],
     },
     {
         "nome": "Peças, Óleos e Iluminação",
         "queries": [
-            "lampada led super branca automotiva",
-            "palheta limpador parabrisa carro",
-            "filtro de oleo automotivo",
-            "oleo 5w30 sintetico automotivo",
-            "aditivo radiador concentrado carro",
-            "kit pastilha de freio carro",
-            "reparador de pneu spray automotivo",
-            "vela de ignição iridium carro",
+            "lâmpada led automotiva",
+            "palheta limpador para-brisa",
+            "filtro de óleo automotivo",
+            "óleo 5w30 sintético",
+            "aditivo radiador carro",
+            "pastilha de freio carro",
         ],
     },
     {
         "nome": "Equipamentos para Motos",
         "queries": [
-            "capacete moto motociclista",
-            "luva motociclista moto",
-            "capa de chuva motociclista moto",
-            "suporte celular moto guidao",
-            "trava de disco moto alarme",
-            "intercomunicador capacete moto",
-            "jaqueta motociclista moto",
-            "bauleto moto bau",
+            "capacete moto integral",
+            "luva motociclista",
+            "capa de chuva moto",
+            "suporte celular moto",
+            "trava disco moto",
+            "bauleto moto",
         ],
     },
     {
         "nome": "Ferramentas Automotivas",
         "queries": [
-            "jogo de soquetes catraca automotivo",
-            "torquimetro automotivo",
-            "macaco hidraulico jacare automotivo",
-            "calibrador pneu digital veicular",
-            "carregador de bateria automotivo 12v",
-            "chave de roda cruz automotiva",
-            "compressor de ar veicular 12v carro",
-            "scanner automotivo obd2",
+            "jogo soquetes automotivo",
+            "torquímetro carro",
+            "macaco hidráulico jacaré",
+            "calibrador pneu digital",
+            "carregador bateria 12v carro",
+            "scanner OBD2 automotivo",
         ],
     },
 ]
 
 S = requests.Session()
-S.headers.update({"User-Agent": "rota-77-auto/1.1", "Accept": "application/json"})
+S.headers.update({
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+})
 
 
 def headers_ml():
@@ -241,13 +237,34 @@ def escolher_oferta(results):
     return min(pool, key=lambda x: x["preco"])
 
 
+def ml_get(url, h, params=None, tentativas=3):
+    """GET com retry em 403/429."""
+    last = None
+    for i in range(tentativas):
+        try:
+            r = S.get(url, headers=h or {}, params=params, timeout=25)
+            last = r
+            if r.status_code == 200:
+                return r
+            if r.status_code in (403, 429, 500, 502, 503):
+                espera = 2 + i * 2 + random.uniform(0.5, 1.5)
+                print(f"  HTTP {r.status_code} → retry em {espera:.1f}s ({i+1}/{tentativas})")
+                time.sleep(espera)
+                continue
+            return r
+        except Exception as e:
+            print(f"  Request erro: {e}")
+            time.sleep(2 + i)
+    return last
+
+
 def montar_produto(pid, h, categoria):
     titulo, foto = "", ""
     preco, frete = 0.0, False
     item_id = None
     try:
-        rp = S.get(f"{API}/products/{pid}", headers=h, timeout=15)
-        if rp.status_code == 200:
+        rp = ml_get(f"{API}/products/{pid}", h)
+        if rp is not None and rp.status_code == 200:
             d = rp.json()
             titulo = d.get("name") or d.get("title") or ""
             pics = d.get("pictures") or []
@@ -260,8 +277,8 @@ def montar_produto(pid, h, categoria):
     if not titulo_ok_automotivo(titulo):
         return None
     try:
-        ri = S.get(f"{API}/products/{pid}/items", headers=h, timeout=15)
-        if ri.status_code == 200:
+        ri = ml_get(f"{API}/products/{pid}/items", h)
+        if ri is not None and ri.status_code == 200:
             escolha = escolher_oferta(ri.json().get("results") or [])
             if escolha:
                 preco = escolha["preco"]
@@ -318,43 +335,56 @@ def produto_de_search_item(item, categoria_label):
 
 def buscar_varios_query(query, h, vistos_ids, vistos_titulos, label, quantos):
     achados = []
+    offset = random.choice([0, 0, 10, 20, 30])
+    params = {
+        "q": query,
+        "category": CAT_VEICULOS,
+        "limit": 50,
+        "offset": offset,
+        "sort": random.choice(["relevance", "price_asc", "sold_quantity_desc"]),
+    }
+    # 1) com token + categoria
+    r = ml_get(f"{API}/sites/MLB/search", h, params=params)
+    # 2) se 403, tenta sem Authorization
+    if r is None or r.status_code == 403:
+        print(f"  Search '{query}' com token falhou → tentando sem auth")
+        time.sleep(1.5)
+        r = ml_get(f"{API}/sites/MLB/search", {}, params=params)
+    # 3) se ainda falhar, tenta sem category
+    if r is None or r.status_code != 200:
+        params2 = {k: v for k, v in params.items() if k != "category"}
+        time.sleep(1.5)
+        r = ml_get(f"{API}/sites/MLB/search", h or {}, params=params2)
+    if r is None or r.status_code != 200:
+        print(f"  Search '{query}' status {getattr(r, 'status_code', None)}")
+        return achados
     try:
-        offset = random.choice([0, 0, 10, 20, 30, 40])
-        params = {
-            "q": query,
-            "limit": 50,
-            "offset": offset,
-            "sort": random.choice(["relevance", "price_asc", "sold_quantity_desc"]),
-        }
-        r = S.get(f"{API}/sites/MLB/search", headers=h, params=params, timeout=25)
-        if r.status_code != 200:
-            print(f"  Search '{query}' status {r.status_code}")
-            return achados
         results = r.json().get("results") or []
-        random.shuffle(results)
-        for item in results:
-            if len(achados) >= quantos:
-                break
-            pid = item.get("catalog_product_id") or item.get("id")
-            if not pid or str(pid) in vistos_ids:
-                continue
-            nt = normalizar_titulo(item.get("title") or "")
-            if nt and nt in vistos_titulos:
-                continue
-            p = None
-            if item.get("catalog_product_id"):
-                p = montar_produto(item["catalog_product_id"], h, label)
-            if not p:
-                p = produto_de_search_item(item, label)
-            if not p:
-                continue
-            vistos_ids.add(p["id"])
-            if nt:
-                vistos_titulos.add(nt)
-            achados.append(p)
-            print(f"  OK [{label}] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
-    except Exception as e:
-        print(f"Erro search '{query}':", e)
+    except Exception:
+        return achados
+    random.shuffle(results)
+    for item in results:
+        if len(achados) >= quantos:
+            break
+        pid = item.get("catalog_product_id") or item.get("id")
+        if not pid or str(pid) in vistos_ids:
+            continue
+        nt = normalizar_titulo(item.get("title") or "")
+        if nt and nt in vistos_titulos:
+            continue
+        p = None
+        if item.get("catalog_product_id"):
+            p = montar_produto(item["catalog_product_id"], h, label)
+        if not p:
+            p = produto_de_search_item(item, label)
+        if not p:
+            continue
+        vistos_ids.add(p["id"])
+        if nt:
+            vistos_titulos.add(nt)
+        achados.append(p)
+        print(f"  OK [{label}] R$ {p['preco']:.2f} — {p['titulo'][:55]}")
+    time.sleep(random.uniform(0.8, 1.6))  # evita rate limit
     return achados
 
 
@@ -372,7 +402,6 @@ def varios_do_grupo(grupo, h, vistos_ids, vistos_titulos, quantos):
 
 
 def montar_diversificado(h, estado):
-    """POSTS_POR_GRUPO produtos de cada grupo (até MAX_POSTS)."""
     vistos_ids = set(estado["ids"].keys())
     vistos_titulos = set(estado["titulos"].keys())
     escolhidos = []
@@ -427,8 +456,7 @@ def postar(p):
 
 
 def pode_postar_agora(agora: dt.datetime) -> bool:
-    h = agora.hour
-    return 7 <= h <= 22
+    return 7 <= agora.hour <= 22
 
 
 def salvar_estado(estado):
@@ -479,6 +507,7 @@ def main():
             registrar_postado(estado, p["id"], p["titulo"], agora)
             enviados += 1
             salvar_estado(estado)
+            time.sleep(1.2)
     salvar_estado(estado)
     print("Postagens enviadas:", enviados)
 
