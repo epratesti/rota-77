@@ -1,77 +1,77 @@
 {
-  "atualizado": "2026-10-26T17:09:08.575349-03:00",
+  "atualizado": "2026-10-26T21:04:35.250049-03:00",
   "itens": [
     {
-      "id": "MLB22871761",
-      "titulo": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
-      "preco": 97.64,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
+      "id": "MLB18623660",
+      "titulo": "Ventilador de Mesa Mondial Super Power 40cm 6 Pás VSP-40-B 127V Preto/Cinza",
+      "preco": 145.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_843498-MLA113779468044_072026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3589312413?matt_tool=71970283"
+    },
+    {
+      "id": "MLB15578941",
+      "titulo": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
+      "preco": 99.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-F.jpg",
       "frete_gratis": true,
       "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5454510697?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7542355322?matt_tool=71970283"
     },
     {
-      "id": "MLB37955040",
-      "titulo": "Marmita Elétrica Preta Bivolt Portátil Doméstica 110/220v Veicular 12/24v Lancheira 1.5l Com Divisórias Esquenta Rápido Refeições Práticas Trabalho Casa Carro Caminhão Viagem Faculdade Woosh",
-      "preco": 46.25,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_605725-MLA117534176540_102026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5462566691?matt_tool=71970283"
+      "id": "MLB24117280",
+      "titulo": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "preco": 78.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4587377807?matt_tool=71970283"
     },
     {
-      "id": "MLB52039200",
-      "titulo": "Samsung Galaxy Buds Core branco",
-      "preco": 199.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 68.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_715678-MLU78765136521_082024-F.jpg",
       "frete_gratis": true,
       "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7707499492?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7855775760?matt_tool=71970283"
     },
     {
-      "id": "MLB38176139",
-      "titulo": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
-      "preco": 196.5,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_760745-MLA95700724020_102025-F.jpg",
+      "id": "MLB43854141",
+      "titulo": "Patinete Infantil 3 Rodas De Led Dobrável Scooter Crianças JustFun Brinquedos Cor Rosa",
+      "preco": 43.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_645422-MLA117249670232_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3918296339?matt_tool=71970283"
+    },
+    {
+      "id": "MLB63152047",
+      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
+      "preco": 49.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
+    },
+    {
+      "id": "MLB29473724",
+      "titulo": "Cortina 4,00x2,80 Metros Blackout Blecaute Preto Corta Luz Em Tecido Grosso Para Quarto E Sala Texfine",
+      "preco": 113.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_664695-MLA96099594865_102025-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5410636044?matt_tool=71970283"
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5119619296?matt_tool=71970283"
     },
     {
-      "id": "MLB37516784",
-      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
-      "preco": 69.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7758644260?matt_tool=71970283"
-    },
-    {
-      "id": "MLB52340699",
-      "titulo": "Kit 10 Squishy Mochi Bichinhos Macios De Apertar Antiestresse Brinquedo Sensorial Relaxante Criativo Para Crianças E Adultos Diversão Garantida Tendência Popular TikTok Brasiliana Tech",
-      "preco": 25.13,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_777795-MLA119713643197_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5930534466?matt_tool=71970283"
-    },
-    {
-      "id": "MLB19745649",
-      "titulo": "Água sanitária e alvejante cloro ativo 5 litros Ypê",
-      "preco": 15.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+      "id": "MLB17001072",
+      "titulo": "Lava Roupas Líquido Omo Lavanderia Profissional Lavagem 7 L",
+      "preco": 39.75,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_685429-MLA116551180045_082026-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3795381493?matt_tool=71970283"
-    },
-    {
-      "id": "MLB17001015",
-      "titulo": "Sabão Líquido Omo Lavagem Perfeita 3l",
-      "preco": 37.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_652994-MLA84838922409_052025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5365595939?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5063201555?matt_tool=71970283"
     }
   ]
 }
