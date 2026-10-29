@@ -1,77 +1,59 @@
 {
-  "atualizado": "2026-10-28T20:32:48.965112-03:00",
+  "atualizado": "2026-10-28T23:52:02.843954-03:00",
   "itens": [
     {
-      "id": "MLB66453791",
-      "titulo": "Papel Higiênico Familiar Folha Dupla Kit 24 Rolos de 30 m",
-      "preco": 34.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_790904-MLA108570211465_032026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-6474450898?matt_tool=71970283"
-    },
-    {
-      "id": "MLB67746701",
-      "titulo": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
-      "preco": 64.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_676065-MLA110243997819_042026-F.jpg",
+      "id": "MLB77186530",
+      "titulo": "Maleta 48 Carrinhos + Tapete Pista 40x60 Estacionamento Brinquedo Infantil Presente Criança - Super Brasileirinho",
+      "preco": 63.16,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_634024-MLA116065268517_082026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-6596438294?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-4530343781?matt_tool=71970283"
     },
     {
-      "id": "MLB25741527",
-      "titulo": "Sanduicheira Elétrica Cadence SAN400 Preta",
-      "preco": 89.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_633183-MLA99468751756_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-6607665974?matt_tool=71970283"
-    },
-    {
-      "id": "MLB37700507",
-      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
-      "preco": 94.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5069004464?matt_tool=71970283"
-    },
-    {
-      "id": "MLB24647466",
-      "titulo": "Bicicleta De Equilíbrio 4 Rodas Buba Infantil Sem Pedal Cor Azul",
-      "preco": 179.44,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_614285-MLA99933903979_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-6031519290?matt_tool=71970283"
-    },
-    {
-      "id": "MLB25656157",
-      "titulo": "Patinete Infantil 3 Rodas Com Led Som E Cesta Menino Menina Cor Rosa",
-      "preco": 77.66,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_829394-MLA99479039346_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7806297200?matt_tool=71970283"
-    },
-    {
-      "id": "MLB43534649",
-      "titulo": "Fone De Ouvido Bluetooth JBL Wave Buds 2 Fit Preto",
-      "preco": 225.34,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_705864-MLA99523953334_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5470500455?matt_tool=71970283"
-    },
-    {
-      "id": "MLB68847885",
-      "titulo": "Gravata Tradicional Masculina Premium Várias Cores Padrinhos Casamento E Eventos Rose Gold",
-      "preco": 16.91,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_934577-MLA111045463629_042026-F.jpg",
+      "id": "MLB44923446",
+      "titulo": "Chinelo Top Havaianas Liso Branco",
+      "preco": 29.4,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_740930-MLA100107121067_122025-F.jpg",
       "frete_gratis": false,
       "categoria": "Moda",
-      "link": "https://produto.mercadolivre.com.br/MLB-5425593763?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-6929873368?matt_tool=71970283"
+    },
+    {
+      "id": "MLB45474714",
+      "titulo": "Chinelo Feminino Slim Havaianas",
+      "preco": 37.84,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_671885-MLA81672743644_012025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Moda",
+      "link": "https://produto.mercadolivre.com.br/MLB-4893245361?matt_tool=71970283"
+    },
+    {
+      "id": "MLB26080271",
+      "titulo": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento Reconstrutor Para Todos Os Tipos De Cabelo",
+      "preco": 33.14,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_605503-MLA114497234356_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Beleza",
+      "link": "https://produto.mercadolivre.com.br/MLB-3956803727?matt_tool=71970283"
+    },
+    {
+      "id": "MLB62230579",
+      "titulo": "Air Fryer Oven Britânia 11L 8 Funções 1800W Painel Digital BAF11A",
+      "preco": 329.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-6194501592?matt_tool=71970283"
+    },
+    {
+      "id": "MLB15578948",
+      "titulo": "Liquidificador Turbo Power Mondial 550W - L-99 FB",
+      "preco": 70.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_744049-MLA99539379058_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5324209777?matt_tool=71970283"
     }
   ]
 }
