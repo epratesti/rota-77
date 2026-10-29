@@ -1,41 +1,23 @@
 {
-  "atualizado": "2026-10-28T23:52:02.843954-03:00",
+  "atualizado": "2026-10-29T07:25:06.188702-03:00",
   "itens": [
     {
-      "id": "MLB77186530",
-      "titulo": "Maleta 48 Carrinhos + Tapete Pista 40x60 Estacionamento Brinquedo Infantil Presente Criança - Super Brasileirinho",
-      "preco": 63.16,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_634024-MLA116065268517_082026-F.jpg",
+      "id": "MLB79491747",
+      "titulo": "Squishy Brinquedo Dumplim Antistress Macio Glitter",
+      "preco": 29.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967924-MLA116331929738_092026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-4530343781?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7903337420?matt_tool=71970283"
     },
     {
-      "id": "MLB44923446",
-      "titulo": "Chinelo Top Havaianas Liso Branco",
-      "preco": 29.4,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_740930-MLA100107121067_122025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Moda",
-      "link": "https://produto.mercadolivre.com.br/MLB-6929873368?matt_tool=71970283"
-    },
-    {
-      "id": "MLB45474714",
-      "titulo": "Chinelo Feminino Slim Havaianas",
-      "preco": 37.84,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_671885-MLA81672743644_012025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Moda",
-      "link": "https://produto.mercadolivre.com.br/MLB-4893245361?matt_tool=71970283"
-    },
-    {
-      "id": "MLB26080271",
-      "titulo": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento Reconstrutor Para Todos Os Tipos De Cabelo",
-      "preco": 33.14,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_605503-MLA114497234356_082026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-3956803727?matt_tool=71970283"
+      "id": "MLB25372458",
+      "titulo": "Atentu patinete infantil menina menino adulto adolescente dobrável cor branco",
+      "preco": 199.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_632785-MLA99522482768_122025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3473394047?matt_tool=71970283"
     },
     {
       "id": "MLB62230579",
@@ -54,6 +36,42 @@
       "frete_gratis": false,
       "categoria": "Eletrodomésticos",
       "link": "https://produto.mercadolivre.com.br/MLB-5324209777?matt_tool=71970283"
+    },
+    {
+      "id": "MLB62511822",
+      "titulo": "Tênis Carina Street Bdp Puma",
+      "preco": 230.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_735782-MLA99431268555_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Moda",
+      "link": "https://produto.mercadolivre.com.br/MLB-6254580488?matt_tool=71970283"
+    },
+    {
+      "id": "MLB44923446",
+      "titulo": "Chinelo Top Havaianas Liso Branco",
+      "preco": 29.4,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_740930-MLA100107121067_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Moda",
+      "link": "https://produto.mercadolivre.com.br/MLB-6929873368?matt_tool=71970283"
+    },
+    {
+      "id": "MLB77186530",
+      "titulo": "Maleta 48 Carrinhos + Tapete Pista 40x60 Estacionamento Brinquedo Infantil Presente Criança - Super Brasileirinho",
+      "preco": 63.16,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_634024-MLA116065268517_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-4530343781?matt_tool=71970283"
+    },
+    {
+      "id": "MLB45474714",
+      "titulo": "Chinelo Feminino Slim Havaianas",
+      "preco": 37.84,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_671885-MLA81672743644_012025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Moda",
+      "link": "https://produto.mercadolivre.com.br/MLB-4893245361?matt_tool=71970283"
     }
   ]
 }
