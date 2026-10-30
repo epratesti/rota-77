@@ -1,32 +1,23 @@
 {
-  "atualizado": "2026-10-29T23:08:48.426390-03:00",
+  "atualizado": "2026-10-30T05:59:00.516878-03:00",
   "itens": [
     {
-      "id": "MLB39962085",
-      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
-      "preco": 61.66,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_706355-MLA120273169961_102026-F.jpg",
+      "id": "MLB18623660",
+      "titulo": "Ventilador de Mesa Mondial Super Power 40cm 6 Pás VSP-40-B 127V Preto/Cinza",
+      "preco": 142.79,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_843498-MLA113779468044_072026-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5427455419?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5467388335?matt_tool=71970283"
     },
     {
-      "id": "MLB24117280",
-      "titulo": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
-      "preco": 76.53,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-4587377807?matt_tool=71970283"
-    },
-    {
-      "id": "MLB43854141",
-      "titulo": "Patinete Infantil 3 Rodas De Led Dobrável Scooter Crianças JustFun Brinquedos Cor Rosa",
-      "preco": 43.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_645422-MLA117249670232_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-3918296339?matt_tool=71970283"
+      "id": "MLB21672188",
+      "titulo": "Aspirador Pó E Água Soprador Wap Gtw 10 Maré 1400w Cor Cinza",
+      "preco": 240.88,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_627568-MLA108247612641_032026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5433762969?matt_tool=71970283"
     },
     {
       "id": "MLB63152047",
@@ -38,13 +29,31 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
     },
     {
-      "id": "MLB18623660",
-      "titulo": "Ventilador de Mesa Mondial Super Power 40cm 6 Pás VSP-40-B 127V Preto/Cinza",
-      "preco": 142.79,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_843498-MLA113779468044_072026-F.jpg",
+      "id": "MLB43854141",
+      "titulo": "Patinete Infantil 3 Rodas De Led Dobrável Scooter Crianças JustFun Brinquedos Cor Rosa",
+      "preco": 43.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_645422-MLA117249670232_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3918296339?matt_tool=71970283"
+    },
+    {
+      "id": "MLB24117280",
+      "titulo": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "preco": 76.53,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4587377807?matt_tool=71970283"
+    },
+    {
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 61.66,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_706355-MLA120273169961_102026-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5467388335?matt_tool=71970283"
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5427455419?matt_tool=71970283"
     }
   ]
 }
