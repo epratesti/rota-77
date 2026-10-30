@@ -1,32 +1,41 @@
 {
-  "atualizado": "2026-10-30T05:59:00.516878-03:00",
+  "atualizado": "2026-10-30T13:14:12.963205-03:00",
   "itens": [
     {
-      "id": "MLB18623660",
-      "titulo": "Ventilador de Mesa Mondial Super Power 40cm 6 Pás VSP-40-B 127V Preto/Cinza",
-      "preco": 142.79,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_843498-MLA113779468044_072026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5467388335?matt_tool=71970283"
-    },
-    {
-      "id": "MLB21672188",
-      "titulo": "Aspirador Pó E Água Soprador Wap Gtw 10 Maré 1400w Cor Cinza",
-      "preco": 240.88,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_627568-MLA108247612641_032026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5433762969?matt_tool=71970283"
-    },
-    {
-      "id": "MLB63152047",
-      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
-      "preco": 49.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
+      "id": "MLB27078749",
+      "titulo": "Refil Filtro Cix06ax Purificador De Água Consul Cpc30af, Cpc30ab, Cpb35ab, Cpb35af, Cpb36af, Cpb36ab, Cpb34ab, Cpb34af, Cpb34as, Cpc31ab, Cpc31af , Original",
+      "preco": 70.19,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_879703-MLA99536118600_122025-F.jpg",
       "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3861077575?matt_tool=71970283"
+    },
+    {
+      "id": "MLB77835608",
+      "titulo": "Cozedor De Ovos Automático Panela A Vapor Elétrica Legumes Elétrica Portátil Prático Rápido 7 Ovos Em 5min Micgeek",
+      "preco": 28.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_873330-MLA115104920512_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5447993697?matt_tool=71970283"
+    },
+    {
+      "id": "MLB65541449",
+      "titulo": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com Microfone Wireless Estéreo Graves Potentes Confortável",
+      "preco": 189.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_608030-MLA106478715282_022026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-6901647228?matt_tool=71970283"
+    },
+    {
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 61.66,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_706355-MLA120273169961_102026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5427455419?matt_tool=71970283"
     },
     {
       "id": "MLB43854141",
@@ -38,22 +47,31 @@
       "link": "https://produto.mercadolivre.com.br/MLB-3918296339?matt_tool=71970283"
     },
     {
-      "id": "MLB24117280",
-      "titulo": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
-      "preco": 76.53,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-4587377807?matt_tool=71970283"
+      "id": "MLB67578878",
+      "titulo": "Kit Com 48 Pacotes de Figurinhas Panini Para o Álbum Copa do Mundo FIFA 2026",
+      "preco": 88.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_979288-MLA109171693698_042026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-6976567444?matt_tool=71970283"
     },
     {
-      "id": "MLB39962085",
-      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
-      "preco": 61.66,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_706355-MLA120273169961_102026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5427455419?matt_tool=71970283"
+      "id": "MLB32043715",
+      "titulo": "Tapete 2x1,5 Sala Peludo Quarto Cores Variadas Cor Branco Desenho Do Tecido Pelo Alto",
+      "preco": 59.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_753255-MLA95501946854_102025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-7753443568?matt_tool=71970283"
+    },
+    {
+      "id": "MLB19590092",
+      "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500W 220V Branco",
+      "preco": 97.11,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638677-MLA118516851287_092026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-3918408487?matt_tool=71970283"
     }
   ]
 }
