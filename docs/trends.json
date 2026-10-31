@@ -1,6 +1,60 @@
 {
-  "atualizado": "2026-10-31T04:29:57.951022-03:00",
+  "atualizado": "2026-10-31T10:53:11.861239-03:00",
   "itens": [
+    {
+      "id": "MLB20306137",
+      "titulo": "Mixer Elétrico Portátil 2 em 1 Recarregável Potente Misturador de Bebidas e Ovos 3 Velocidades Usb Batedor e Fue Fouet Woosh",
+      "preco": 15.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_619021-MLA118179806341_092026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7791649172?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16016316",
+      "titulo": "Batedeira Prática Mondial 400W - B-44-B",
+      "preco": 50.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_877834-MLA99469550350_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7813553564?matt_tool=71970283"
+    },
+    {
+      "id": "MLB40656539",
+      "titulo": "Starlink Mini Kit Antena Satélite com Roteador Wi-Fi",
+      "preco": 499.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_799612-MLA95359719699_102025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4506370985?matt_tool=71970283"
+    },
+    {
+      "id": "MLB45862017",
+      "titulo": "Suporte TV Fixo Universal 10\" a 100\" Polegadas Forte Para Todas as Marcas",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_854028-MLA117416860537_092026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3790915517?matt_tool=71970283"
+    },
+    {
+      "id": "MLB53222689",
+      "titulo": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
+      "preco": 92.08,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5574851656?matt_tool=71970283"
+    },
+    {
+      "id": "MLB23958420",
+      "titulo": "Detergente Ypê Neutro 5 Litros",
+      "preco": 21.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_941769-MLA99925691215_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-6658934912?matt_tool=71970283"
+    },
     {
       "id": "MLB25656186",
       "titulo": "Patinete Infantil 3 Rodas com Led/Dobrável Menino/Menina",
@@ -11,67 +65,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-3399022201?matt_tool=71970283"
     },
     {
-      "id": "MLB35762220",
-      "titulo": "Conjunto 5 Carrinhos Hot Wheels - Mattel",
-      "preco": 72.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_724815-MLA99876815105_112025-F.jpg",
+      "id": "MLB69694728",
+      "titulo": "Spray Pum Peido Fedorento Pegadinha Viral Trollagem Brincadeira Perfume Fedido - Marca Black Raipe",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638104-MLA111704798941_052026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7358347786?matt_tool=71970283"
-    },
-    {
-      "id": "MLB53911392",
-      "titulo": "Fone De Ouvido Bluetooth 5.1 Sem Fio Tws Wireless Bateria Longa Duração E Conexão Rápida Coolmusic",
-      "preco": 24.79,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_960127-MLA109738568733_032026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5619970196?matt_tool=71970283"
-    },
-    {
-      "id": "MLB25263382",
-      "titulo": "Fone De Ouvido Bluetooth Bateria de Longa Duração Pro 4 Branco Conecta Rápido Com Case Carregador E Microfone Fast Plug",
-      "preco": 18.29,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_791435-MLA118754152028_102026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5453711671?matt_tool=71970283"
-    },
-    {
-      "id": "MLB29473724",
-      "titulo": "Cortina 4,00x2,80 Metros Blackout Blecaute Preto Corta Luz Em Tecido Grosso Para Quarto E Sala Texfine",
-      "preco": 113.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_664695-MLA96099594865_102025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5119619296?matt_tool=71970283"
-    },
-    {
-      "id": "MLB44212011",
-      "titulo": "Escova Elétrica de Limpeza DeckCasa JY-6010 3000mAh 137 cm",
-      "preco": 49.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_824959-MLA99446279174_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5454145737?matt_tool=71970283"
-    },
-    {
-      "id": "MLB49822923",
-      "titulo": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades Turbo PBP90A",
-      "preco": 289.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_728713-MLA99416610212_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5430315883?matt_tool=71970283"
-    },
-    {
-      "id": "MLB20306137",
-      "titulo": "Mixer Elétrico Portátil 2 em 1 Recarregável Potente Misturador de Bebidas e Ovos 3 Velocidades Usb Batedor e Fue Fouet Woosh",
-      "preco": 15.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_619021-MLA118179806341_092026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7791649172?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5648370548?matt_tool=71970283"
     }
   ]
 }
