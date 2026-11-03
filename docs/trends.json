@@ -1,23 +1,59 @@
 {
-  "atualizado": "2026-11-03T04:14:44.974210-03:00",
+  "atualizado": "2026-11-03T12:28:31.354058-03:00",
   "itens": [
-    {
-      "id": "MLB34506613",
-      "titulo": "Mangueira De Jardim 50m Metros Com Esguicho Trançada Reforçada Flexível 7/16 Anti Dobra Irrigação Quintal Poço Lavagem Durável Marqs Home",
-      "preco": 94.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_922054-MLA109736714470_042026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3728863885?matt_tool=71970283"
-    },
     {
       "id": "MLB72687785",
       "titulo": "Squishy Butter Barra De Manteiga Viral Tik Tok Antiestresse",
-      "preco": 15.93,
+      "preco": 15.77,
       "imagem": "https://http2.mlstatic.com/D_NQ_NP_678681-MLA117645777206_102026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
       "link": "https://produto.mercadolivre.com.br/MLB-5275749585?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25656186",
+      "titulo": "Patinete Infantil 3 Rodas com Led/Dobrável Menino/Menina",
+      "preco": 51.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_944838-MLA99549576346_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3399022201?matt_tool=71970283"
+    },
+    {
+      "id": "MLB23958420",
+      "titulo": "Detergente Ypê Neutro 5 Litros",
+      "preco": 21.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_941769-MLA99925691215_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-6658934912?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16084371",
+      "titulo": "Papel higiênico Neve Toque da Seda folha dupla 30 m de 32 un",
+      "preco": 58.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_846712-MLA99595796020_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-3811719640?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16016316",
+      "titulo": "Batedeira Prática Mondial 400W - B-44-B",
+      "preco": 50.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_877834-MLA99469550350_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7813553564?matt_tool=71970283"
+    },
+    {
+      "id": "MLB75466404",
+      "titulo": "Chaleira Elétrica Luxena de Inox 1.8 Litros com Desligamento Automático e Base Giratória Aquecimento Rápido Alça Ergonômica Para Escritório Casa Cozinha Viagem Fervedor De Água Moderno",
+      "preco": 29.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_950533-MLA115732440651_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5445279136?matt_tool=71970283"
     },
     {
       "id": "MLB24028629",
@@ -29,31 +65,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5410852112?matt_tool=71970283"
     },
     {
-      "id": "MLB50243717",
-      "titulo": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Branco",
-      "preco": 104.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_857350-MLA107653770031_022026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5255185857?matt_tool=71970283"
-    },
-    {
-      "id": "MLB18623660",
-      "titulo": "Ventilador de Mesa Mondial Super Power 40cm 6 Pás VSP-40-B 127V Preto/Cinza",
-      "preco": 119.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_843498-MLA113779468044_072026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7501565920?matt_tool=71970283"
-    },
-    {
-      "id": "MLB18932156",
-      "titulo": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
-      "preco": 127.67,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_620576-MLA99958768953_112025-F.jpg",
+      "id": "MLB45862017",
+      "titulo": "Suporte TV Fixo Universal 10\" a 100\" Polegadas Forte Para Todas as Marcas",
+      "preco": 18.11,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_854028-MLA117416860537_092026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-3600544593?matt_tool=71970283"
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7926217468?matt_tool=71970283"
     }
   ]
 }
