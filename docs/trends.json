@@ -1,6 +1,24 @@
 {
-  "atualizado": "2026-11-04T23:46:45.696876-03:00",
+  "atualizado": "2026-11-05T08:29:45.026656-03:00",
   "itens": [
+    {
+      "id": "MLB62230579",
+      "titulo": "Air Fryer Oven Britânia 11L 8 Funções 1800W Painel Digital BAF11A",
+      "preco": 349.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-6194501592?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25741527",
+      "titulo": "Sanduicheira Elétrica Cadence SAN400 Preta",
+      "preco": 89.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_633183-MLA99468751756_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-6607665974?matt_tool=71970283"
+    },
     {
       "id": "MLB52039200",
       "titulo": "Samsung Galaxy Buds Core branco",
@@ -20,58 +38,40 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5410636044?matt_tool=71970283"
     },
     {
-      "id": "MLB37516784",
-      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
-      "preco": 68.89,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7911669844?matt_tool=71970283"
-    },
-    {
-      "id": "MLB57471881",
-      "titulo": "Brinquedo Bubble Gun Maquina Arminha Pistola Bolha De Sabão",
-      "preco": 19.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_746671-MLA100113047697_122025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7828378906?matt_tool=71970283"
-    },
-    {
-      "id": "MLB17001072",
-      "titulo": "Lava Roupas Líquido Omo Lavanderia Profissional Lavagem 7 L",
-      "preco": 39.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_685429-MLA116551180045_082026-F.jpg",
+      "id": "MLB16084358",
+      "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+      "preco": 28.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-4987441021?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5736190284?matt_tool=71970283"
     },
     {
-      "id": "MLB65269789",
-      "titulo": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Vitrex",
-      "preco": 91.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_932662-MLA114564682923_072026-F.jpg",
-      "frete_gratis": true,
+      "id": "MLB19745649",
+      "titulo": "Água sanitária e alvejante cloro ativo 5 litros Ypê",
+      "preco": 14.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+      "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-7926624804?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-3795381493?matt_tool=71970283"
     },
     {
-      "id": "MLB37700507",
-      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
-      "preco": 94.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5069004464?matt_tool=71970283"
+      "id": "MLB67746701",
+      "titulo": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
+      "preco": 64.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_676065-MLA110243997819_042026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-6596438294?matt_tool=71970283"
     },
     {
-      "id": "MLB22871761",
-      "titulo": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
-      "preco": 97.64,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
+      "id": "MLB79483467",
+      "titulo": "Patinete Elétrico Infantil Triciclo PARES Drift Bluetooth 3 Rodas Vermelho Diversão e Lazer + Kit de segurança",
+      "preco": 826.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_815199-MLA117836437827_092026-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5454510697?matt_tool=71970283"
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7658098506?matt_tool=71970283"
     }
   ]
 }
