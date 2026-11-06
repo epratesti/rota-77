@@ -1,14 +1,23 @@
 {
-  "atualizado": "2026-11-06T04:24:33.986388-03:00",
+  "atualizado": "2026-11-06T12:23:25.778748-03:00",
   "itens": [
     {
-      "id": "MLB37516784",
-      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
-      "preco": 68.89,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
+      "id": "MLB62997555",
+      "titulo": "Balança Digital Davely Cook para Cozinha Com Função Tara e 10 kg de Capacidade Uso Domestico E Profissional Fitness Ideal Para Dietas Treinos Gramas Alimentos Receitas Confeitaria Nutrição",
+      "preco": 19.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_903976-MLA109751277529_032026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7911669844?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4083251613?matt_tool=71970283"
+    },
+    {
+      "id": "MLB37700507",
+      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
+      "preco": 89.68,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7951652476?matt_tool=71970283"
     },
     {
       "id": "MLB25656157",
@@ -20,22 +29,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5373185981?matt_tool=71970283"
     },
     {
-      "id": "MLB27078749",
-      "titulo": "Refil Filtro Cix06ax Purificador De Água Consul Cpc30af, Cpc30ab, Cpb35ab, Cpb35af, Cpb36af, Cpb36ab, Cpb34ab, Cpb34af, Cpb34as, Cpc31ab, Cpc31af , Original",
-      "preco": 85.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_879703-MLA99536118600_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5872138562?matt_tool=71970283"
-    },
-    {
-      "id": "MLB22871761",
-      "titulo": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
-      "preco": 97.64,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5454510697?matt_tool=71970283"
+      "id": "MLB37516784",
+      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
+      "preco": 68.89,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7911669844?matt_tool=71970283"
     },
     {
       "id": "MLB66422734",
@@ -47,22 +47,22 @@
       "link": "https://produto.mercadolivre.com.br/MLB-7944972494?matt_tool=71970283"
     },
     {
-      "id": "MLB19938121",
-      "titulo": "Fone Sem Fio Lenovo Gm2 Pro 5.3 Bluetooth - Touch - Gamer Preto Luz Azul",
-      "preco": 60.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_896426-MLA118354508175_092026-F.jpg",
-      "frete_gratis": false,
+      "id": "MLB24075966",
+      "titulo": "Processador de Áudio Digital Taramps Pro 2.4S para Som Automotivo com Crossover e Equalizador 15 Bandas",
+      "preco": 159.08,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_830482-MLA108910560858_032026-F.jpg",
+      "frete_gratis": true,
       "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5893046690?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-4559000033?matt_tool=71970283"
     },
     {
       "id": "MLB19590092",
       "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500W 220V Branco",
-      "preco": 132.9,
+      "preco": 96.36,
       "imagem": "https://http2.mlstatic.com/D_NQ_NP_817978-MLA118517428381_092026-F.jpg",
       "frete_gratis": true,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-4963793359?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-6755552934?matt_tool=71970283"
     },
     {
       "id": "MLB65269789",
