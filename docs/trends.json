@@ -1,23 +1,59 @@
 {
-  "atualizado": "2026-11-08T06:29:08.445552-03:00",
+  "atualizado": "2026-11-08T13:20:00.547830-03:00",
   "itens": [
     {
-      "id": "MLB15248175",
-      "titulo": "Suporte De Mesa Para Tv/monitor De 17 Até 30 Preto Nb F80",
-      "preco": 97.64,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967508-MLA115291492479_072026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5425276303?matt_tool=71970283"
+      "id": "MLB19745649",
+      "titulo": "Água Sanitária Ypê Cloro Ativo 5 L Original",
+      "preco": 14.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-3795381493?matt_tool=71970283"
     },
     {
-      "id": "MLB19462412",
-      "titulo": "Máscara de Reconstrução Profunda para Cabelos Danificados, Força e Elasticidade Résistance Thérapiste Kérastase 200ml",
-      "preco": 229.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_753132-MLA99450295832_112025-F.jpg",
+      "id": "MLB19466433",
+      "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
+      "preco": 49.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-4592569844?matt_tool=71970283"
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-3798323167?matt_tool=71970283"
+    },
+    {
+      "id": "MLB81565711",
+      "titulo": "Patinete Elétrico Infantil Triciclo PARES Drift Bluetooth 3 Rodas Vermelho Diversão e Lazer + Kit de segurança",
+      "preco": 826.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_692381-MLA120873230775_112026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7658098506?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25741527",
+      "titulo": "Sanduicheira Elétrica Cadence SAN400 Preta",
+      "preco": 89.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_633183-MLA99468751756_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-6607665974?matt_tool=71970283"
+    },
+    {
+      "id": "MLB52039200",
+      "titulo": "Samsung Galaxy Buds Core branco",
+      "preco": 186.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5396274095?matt_tool=71970283"
+    },
+    {
+      "id": "MLB38176139",
+      "titulo": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+      "preco": 196.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_760745-MLA95700724020_102025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5410636044?matt_tool=71970283"
     }
   ]
 }
