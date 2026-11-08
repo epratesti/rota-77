@@ -1,59 +1,59 @@
 {
-  "atualizado": "2026-11-08T13:20:00.547830-03:00",
+  "atualizado": "2026-11-08T17:45:52.370960-03:00",
   "itens": [
     {
-      "id": "MLB19745649",
-      "titulo": "Água Sanitária Ypê Cloro Ativo 5 L Original",
-      "preco": 14.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+      "id": "MLB21817157",
+      "titulo": "Detergente Lava Louças Ypê Com 6 Unidades Neutro 500ml",
+      "preco": 10.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_981697-MLA99446675498_112025-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3795381493?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-6494693438?matt_tool=71970283"
     },
     {
-      "id": "MLB19466433",
-      "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
-      "preco": 49.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+      "id": "MLB52340699",
+      "titulo": "Kit 10 Squishy Mochi Bichinhos Macios De Apertar Antiestresse Brinquedo Sensorial Relaxante Criativo Para Crianças E Adultos Diversão Garantida Tendência Popular TikTok Brasiliana Tech",
+      "preco": 24.38,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_777795-MLA119713643197_102026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3798323167?matt_tool=71970283"
-    },
-    {
-      "id": "MLB81565711",
-      "titulo": "Patinete Elétrico Infantil Triciclo PARES Drift Bluetooth 3 Rodas Vermelho Diversão e Lazer + Kit de segurança",
-      "preco": 826.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_692381-MLA120873230775_112026-F.jpg",
-      "frete_gratis": true,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7658098506?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5930534466?matt_tool=71970283"
     },
     {
-      "id": "MLB25741527",
-      "titulo": "Sanduicheira Elétrica Cadence SAN400 Preta",
-      "preco": 89.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_633183-MLA99468751756_112025-F.jpg",
+      "id": "MLB65541449",
+      "titulo": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com Microfone Wireless Estéreo Graves Potentes Confortável",
+      "preco": 198.8,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_608030-MLA106478715282_022026-F.jpg",
       "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7827686810?matt_tool=71970283"
+    },
+    {
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 59.39,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_954504-MLA118603044502_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7952360144?matt_tool=71970283"
+    },
+    {
+      "id": "MLB66128181",
+      "titulo": "Ventilador de Teto 60W Silencioso Lâmpada Forte com LED, Controle e 6 Pás Soquete E27 Para Residencial Comercial Interno Externo Quarto Sala Cozinha Escritório Gourmet Apartamento Casa - Commlite.",
+      "preco": 57.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_695332-MLA118292636431_092026-F.jpg",
+      "frete_gratis": false,
       "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-6607665974?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-6373122932?matt_tool=71970283"
     },
     {
-      "id": "MLB52039200",
-      "titulo": "Samsung Galaxy Buds Core branco",
-      "preco": 186.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5396274095?matt_tool=71970283"
-    },
-    {
-      "id": "MLB38176139",
-      "titulo": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
-      "preco": 196.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_760745-MLA95700724020_102025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5410636044?matt_tool=71970283"
+      "id": "MLB19617676",
+      "titulo": "Micro-ondas ME23S 23L Efficient Com Descongelamento Assistido Cor Inox Electrolux",
+      "preco": 524.27,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_940680-MLA99700976956_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5340342250?matt_tool=71970283"
     }
   ]
 }
