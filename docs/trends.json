@@ -1,6 +1,15 @@
 {
-  "atualizado": "2026-11-07T23:42:23.356021-03:00",
+  "atualizado": "2026-11-08T06:29:08.445552-03:00",
   "itens": [
+    {
+      "id": "MLB15248175",
+      "titulo": "Suporte De Mesa Para Tv/monitor De 17 Até 30 Preto Nb F80",
+      "preco": 97.64,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967508-MLA115291492479_072026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5425276303?matt_tool=71970283"
+    },
     {
       "id": "MLB19462412",
       "titulo": "Máscara de Reconstrução Profunda para Cabelos Danificados, Força e Elasticidade Résistance Thérapiste Kérastase 200ml",
@@ -9,15 +18,6 @@
       "frete_gratis": false,
       "categoria": "Beleza",
       "link": "https://produto.mercadolivre.com.br/MLB-4592569844?matt_tool=71970283"
-    },
-    {
-      "id": "MLB60416809",
-      "titulo": "Hidrabene Protetor facial Solar FPS 70 Toque Seco Antissinais Clareia a pele 50g",
-      "preco": 15.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_655805-MLA116956226142_092026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-5506988763?matt_tool=71970283"
     }
   ]
 }
