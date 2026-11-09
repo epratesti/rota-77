@@ -1,23 +1,77 @@
 {
-  "atualizado": "2026-11-09T05:39:57.326358-03:00",
+  "atualizado": "2026-11-09T16:07:45.514144-03:00",
   "itens": [
     {
-      "id": "MLB36136752",
-      "titulo": "O Boticário Liz Flora Desodorante Colônia 100ml",
-      "preco": 71.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_837324-MLU75963465495_042024-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-4641701284?matt_tool=71970283"
+      "id": "MLB62997555",
+      "titulo": "Balança Digital Davely Cook para Cozinha Com Função Tara e 10 kg de Capacidade Uso Domestico E Profissional Fitness Ideal Para Dietas Treinos Gramas Alimentos Receitas Confeitaria Nutrição",
+      "preco": 16.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_903976-MLA109751277529_032026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5533807239?matt_tool=71970283"
     },
     {
-      "id": "MLB39016247",
-      "titulo": "O Boticário Quasar Blue Desodorante Colônia 100ml",
-      "preco": 93.85,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_645686-MLA82876911341_032025-F.jpg",
+      "id": "MLB37700507",
+      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
+      "preco": 89.68,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
       "frete_gratis": true,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-5529629085?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7951652476?matt_tool=71970283"
+    },
+    {
+      "id": "MLB66422734",
+      "titulo": "Controle Remoto Para Tv Samsung Smart Hub + 2 Pilhas Audiogeek",
+      "preco": 19.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_704827-MLA115917728237_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7626146896?matt_tool=71970283"
+    },
+    {
+      "id": "MLB24075966",
+      "titulo": "Processador de Áudio Digital Taramps Pro 2.4S para Som Automotivo com Crossover e Equalizador 15 Bandas",
+      "preco": 159.08,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_830482-MLA108910560858_032026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4559000033?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25656157",
+      "titulo": "Patinete Infantil 3 Rodas Com Led Som E Cesta Menino Menina Cor Rosa",
+      "preco": 55.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_829394-MLA99479039346_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5373185981?matt_tool=71970283"
+    },
+    {
+      "id": "MLB37516784",
+      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
+      "preco": 68.89,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7911669844?matt_tool=71970283"
+    },
+    {
+      "id": "MLB19590092",
+      "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500W 220V Branco",
+      "preco": 100.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_817978-MLA118517428381_092026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-4671359147?matt_tool=71970283"
+    },
+    {
+      "id": "MLB65269789",
+      "titulo": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Vitrex",
+      "preco": 96.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_994871-MLA119301626806_112026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-6600701296?matt_tool=71970283"
     }
   ]
 }
