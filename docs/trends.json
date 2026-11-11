@@ -1,77 +1,68 @@
 {
-  "atualizado": "2026-11-10T20:43:17.255301-03:00",
+  "atualizado": "2026-11-11T00:04:10.817429-03:00",
   "itens": [
     {
-      "id": "MLB69694728",
-      "titulo": "Spray Pum Peido Fedorento Pegadinha Viral Trollagem Brincadeira Perfume Fedido - Marca Black Raipe",
-      "preco": 19.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638104-MLA111704798941_052026-F.jpg",
+      "id": "MLB77672147",
+      "titulo": "Blister Duplo Com Moeda Celebração 30 Anos Pokémon TCG Português",
+      "preco": 109.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_896714-MLA117063745326_102026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5414776307?matt_tool=71970283"
+    },
+    {
+      "id": "MLB74743819",
+      "titulo": "Blister Triplo Pokémon ME05 Escuridão Absoluta",
+      "preco": 33.61,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_650344-MLA116714869329_082026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5648370548?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7077055152?matt_tool=71970283"
     },
     {
-      "id": "MLB69735015",
-      "titulo": "Pokémon ME04 Caos Ascendente Blister Quádruplo Toxel 4 Boosters copag",
-      "preco": 34.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_861056-MLA116069207296_092026-F.jpg",
+      "id": "MLB18932156",
+      "titulo": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
+      "preco": 127.67,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_620576-MLA99958768953_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3600544593?matt_tool=71970283"
+    },
+    {
+      "id": "MLB27078749",
+      "titulo": "Refil Filtro W11199342 (CIX06AX) Purificador De Água Consul Cpc30af, Cpc30ab, Cpb35ab, Cpb35af, Cpb36af, Cpb36ab, Cpb34ab, Cpb34af, Cpb34as, Cpc31ab, Cpc31af , Original Branco",
+      "preco": 72.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_879703-MLA99536118600_122025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5581364178?matt_tool=71970283"
+    },
+    {
+      "id": "MLB79315772",
+      "titulo": "Squishy Bolinha Médio Garra Colorido Slow Rising para Crianças",
+      "preco": 27.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_915176-MLA119049397119_102026-F.jpg",
       "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5520862135?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7804681148?matt_tool=71970283"
     },
     {
-      "id": "MLB50243717",
-      "titulo": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Branco",
-      "preco": 104.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_857350-MLA107653770031_022026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5255185857?matt_tool=71970283"
-    },
-    {
-      "id": "MLB24028629",
-      "titulo": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Preto",
-      "preco": 138.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_730568-MLA99983575997_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5410852112?matt_tool=71970283"
-    },
-    {
-      "id": "MLB34506613",
-      "titulo": "Mangueira De Jardim 50m Metros Com Esguicho Trançada Reforçada Flexível 7/16 Anti Dobra Irrigação Quintal Poço Lavagem Durável Marqs Home",
-      "preco": 94.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_922054-MLA109736714470_042026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3728863885?matt_tool=71970283"
-    },
-    {
-      "id": "MLB65806827",
-      "titulo": "Kit Cobre Leito Colcha King 3 Peças Boutis Dupla Face Porta Travesseiro Aba Americana - Sofia Rose",
-      "preco": 96.89,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_600929-MLA107442530491_022026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-6296567568?matt_tool=71970283"
-    },
-    {
-      "id": "MLB35276826",
-      "titulo": "Sanduicheira Grill 2 Em 1 Kian Preta Elétrica 750w Cor Preto,Seu Mixto Quente Ultra Rápido, e Outros Petiscos",
-      "preco": 49.87,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_811189-MLA117367368715_092026-F.jpg",
+      "id": "MLB25263382",
+      "titulo": "Fone De Ouvido Bluetooth Bateria de Longa Duração Pro 4 Branco Conecta Rápido Com Case Carregador E Microfone Fast Plug",
+      "preco": 24.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_791435-MLA118754152028_102026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5411393784?matt_tool=71970283"
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5510224051?matt_tool=71970283"
     },
     {
-      "id": "MLB77835608",
-      "titulo": "Cozedor de Ovos Elétrico Micgeek a Vapor para 7 Ovos com Desligamento Automático",
-      "preco": 28.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_873330-MLA115104920512_082026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5357156907?matt_tool=71970283"
+      "id": "MLB53911392",
+      "titulo": "Fone De Ouvido Bluetooth 5.1 Sem Fio Tws Wireless Bateria Longa Duração E Conexão Rápida Coolmusic",
+      "preco": 24.79,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_960127-MLA109738568733_032026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5619970196?matt_tool=71970283"
     }
   ]
 }
