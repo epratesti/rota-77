@@ -1,6 +1,33 @@
 {
-  "atualizado": "2026-11-13T00:35:52.065193-03:00",
+  "atualizado": "2026-11-13T08:33:39.650841-03:00",
   "itens": [
+    {
+      "id": "MLB52340699",
+      "titulo": "Kit 10 Squishy Mochi Bichinhos Macios De Apertar Antiestresse Brinquedo Sensorial Relaxante Criativo Para Crianças E Adultos Diversão Garantida Tendência Popular TikTok Brasiliana Tech",
+      "preco": 24.38,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_777795-MLA119713643197_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5930534466?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25656186",
+      "titulo": "Patinete Infantil 3 Rodas com Led/Dobrável Menino/Menina",
+      "preco": 51.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_944838-MLA99549576346_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3399022201?matt_tool=71970283"
+    },
+    {
+      "id": "MLB78457348",
+      "titulo": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Vitrex",
+      "preco": 61.43,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_718827-MLA121009065709_112026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5552540001?matt_tool=71970283"
+    },
     {
       "id": "MLB19590092",
       "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500w 220v Branco",
@@ -11,6 +38,24 @@
       "link": "https://produto.mercadolivre.com.br/MLB-7069105308?matt_tool=71970283"
     },
     {
+      "id": "MLB22871761",
+      "titulo": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
+      "preco": 131.35,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5552447119?matt_tool=71970283"
+    },
+    {
+      "id": "MLB26885943",
+      "titulo": "Rádio Retrô Vintage Portátil AM/FM Bluetooth USB Marrom",
+      "preco": 78.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_971330-MLA118049048726_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4002953199?matt_tool=71970283"
+    },
+    {
       "id": "MLB66422734",
       "titulo": "Controle Remoto Para Tv Samsung Smart Hub + 2 Pilhas Audiogeek",
       "preco": 18.92,
@@ -18,24 +63,6 @@
       "frete_gratis": false,
       "categoria": "Eletrônicos",
       "link": "https://produto.mercadolivre.com.br/MLB-5551783469?matt_tool=71970283"
-    },
-    {
-      "id": "MLB62797467",
-      "titulo": "Floratta Flores Secretas 75ml O Boticário Feminino",
-      "preco": 86.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_889465-MLA99767551238_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-5940016354?matt_tool=71970283"
-    },
-    {
-      "id": "MLB52340699",
-      "titulo": "Kit 10 Squishy Mochi Bichinhos Macios De Apertar Antiestresse Brinquedo Sensorial Relaxante Criativo Para Crianças E Adultos Diversão Garantida Tendência Popular TikTok Brasiliana Tech",
-      "preco": 24.38,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_777795-MLA119713643197_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5930534466?matt_tool=71970283"
     }
   ]
 }
