@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-14T04:01:48.657339-03:00",
+  "atualizado": "2026-11-14T11:30:58.406353-03:00",
   "itens": [
     {
       "id": "MLB43534649",
@@ -11,13 +11,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5547517297?matt_tool=71970283"
     },
     {
-      "id": "MLB55232692",
-      "titulo": "Cetaphil Loção Hidratante Corporal e Facial para Pele Sensível, Normal a Seca 1L - Hidratação 48h",
-      "preco": 195.84,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_800625-MLA118013409895_092026-F.jpg",
+      "id": "MLB53911392",
+      "titulo": "Fone De Ouvido Bluetooth 5.1 Sem Fio Tws Wireless Bateria Longa Duração E Conexão Rápida Coolmusic",
+      "preco": 24.79,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_960127-MLA109738568733_032026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-4199575191?matt_tool=71970283"
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5619970196?matt_tool=71970283"
     },
     {
       "id": "MLB28717101",
@@ -27,6 +27,42 @@
       "frete_gratis": true,
       "categoria": "Brinquedos e Festas",
       "link": "https://produto.mercadolivre.com.br/MLB-4287637614?matt_tool=71970283"
+    },
+    {
+      "id": "MLB74743819",
+      "titulo": "Blister Triplo Pokémon ME05 Escuridão Absoluta",
+      "preco": 29.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_650344-MLA116714869329_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7077055152?matt_tool=71970283"
+    },
+    {
+      "id": "MLB79315772",
+      "titulo": "Squishy Bolinha Médio Garra Colorido Slow Rising para Crianças",
+      "preco": 25.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_915176-MLA119049397119_102026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5314698781?matt_tool=71970283"
+    },
+    {
+      "id": "MLB77672147",
+      "titulo": "Blister Duplo Com Moeda Celebração 30 Anos Pokémon TCG Português",
+      "preco": 109.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_896714-MLA117063745326_102026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5414776307?matt_tool=71970283"
+    },
+    {
+      "id": "MLB62230579",
+      "titulo": "Air Fryer Oven Britânia 11L 8 Funções 1800W Painel Digital BAF11A",
+      "preco": 318.29,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5526430831?matt_tool=71970283"
     }
   ]
 }
