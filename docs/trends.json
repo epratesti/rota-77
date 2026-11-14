@@ -1,77 +1,32 @@
 {
-  "atualizado": "2026-11-13T21:28:16.815610-03:00",
+  "atualizado": "2026-11-14T04:01:48.657339-03:00",
   "itens": [
     {
-      "id": "MLB65806827",
-      "titulo": "Kit Cobre Leito Colcha King 3 Peças Boutis Dupla Face Porta Travesseiro Aba Americana - Sofia Rose",
-      "preco": 96.89,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_600929-MLA107442530491_022026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-6296567568?matt_tool=71970283"
-    },
-    {
-      "id": "MLB34506613",
-      "titulo": "Mangueira De Jardim 50m Metros Com Esguicho Trançada Reforçada Flexível 7/16 Anti Dobra Irrigação Quintal Poço Lavagem Durável Marqs Home",
-      "preco": 90.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_922054-MLA109736714470_042026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3728863885?matt_tool=71970283"
-    },
-    {
-      "id": "MLB24028629",
-      "titulo": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Preto",
-      "preco": 129.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_730568-MLA99983575997_112025-F.jpg",
+      "id": "MLB43534649",
+      "titulo": "Fone De Ouvido Bluetooth JBL Wave Buds 2 Fit Preto",
+      "preco": 195.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_705864-MLA99523953334_122025-F.jpg",
       "frete_gratis": true,
       "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5410852112?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5547517297?matt_tool=71970283"
     },
     {
-      "id": "MLB50243717",
-      "titulo": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Branco",
-      "preco": 104.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_857350-MLA107653770031_022026-F.jpg",
+      "id": "MLB55232692",
+      "titulo": "Cetaphil Loção Hidratante Corporal e Facial para Pele Sensível, Normal a Seca 1L - Hidratação 48h",
+      "preco": 195.84,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_800625-MLA118013409895_092026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Beleza",
+      "link": "https://produto.mercadolivre.com.br/MLB-4199575191?matt_tool=71970283"
+    },
+    {
+      "id": "MLB28717101",
+      "titulo": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
+      "preco": 269.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_917104-MLA96155675715_102025-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5255185857?matt_tool=71970283"
-    },
-    {
-      "id": "MLB69735015",
-      "titulo": "Pokémon ME04 Caos Ascendente Blister Quádruplo Toxel 4 Boosters copag",
-      "preco": 44.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_861056-MLA116069207296_092026-F.jpg",
-      "frete_gratis": false,
       "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5452950305?matt_tool=71970283"
-    },
-    {
-      "id": "MLB69694728",
-      "titulo": "Spray Pum Peido Fedorento Pegadinha Viral Trollagem Brincadeira Perfume Fedido - Marca Black Raipe",
-      "preco": 19.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638104-MLA111704798941_052026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5648370548?matt_tool=71970283"
-    },
-    {
-      "id": "MLB19617676",
-      "titulo": "Micro-ondas ME23S 23L Efficient Com Descongelamento Assistido Cor Inox Electrolux",
-      "preco": 600.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_940680-MLA99700976956_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5506624567?matt_tool=71970283"
-    },
-    {
-      "id": "MLB77835608",
-      "titulo": "Cozedor de Ovos Elétrico Micgeek a Vapor para 7 Ovos com Desligamento Automático",
-      "preco": 29.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_873330-MLA115104920512_082026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7985220246?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-4287637614?matt_tool=71970283"
     }
   ]
 }
