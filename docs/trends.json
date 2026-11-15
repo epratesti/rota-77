@@ -1,59 +1,68 @@
 {
-  "atualizado": "2026-11-14T20:23:27.158696-03:00",
+  "atualizado": "2026-11-15T00:05:28.427388-03:00",
   "itens": [
     {
-      "id": "MLB53222689",
-      "titulo": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-      "preco": 129.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-F.jpg",
+      "id": "MLB21672188",
+      "titulo": "Aspirador Pó E Água Soprador Wap Gtw 10 Maré 1400w Cor Cinza",
+      "preco": 245.61,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_627568-MLA108247612641_032026-F.jpg",
       "frete_gratis": true,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5560600917?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5539438645?matt_tool=71970283"
     },
     {
-      "id": "MLB19466433",
-      "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
-      "preco": 45.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+      "id": "MLB16016316",
+      "titulo": "Batedeira Prática Mondial 400W - B-44-B",
+      "preco": 71.76,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_877834-MLA99469550350_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7933439758?matt_tool=71970283"
+    },
+    {
+      "id": "MLB75542419",
+      "titulo": "Percarbonato De Sódio 100% Puro Tira Manchas Alvejante - 1kg Calisul",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-4419918279?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5556797793?matt_tool=71970283"
     },
     {
-      "id": "MLB25263382",
-      "titulo": "Fone De Ouvido Bluetooth Bateria de Longa Duração Pro 4 Branco Conecta Rápido Com Case Carregador E Microfone Fast Plug",
-      "preco": 14.33,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_791435-MLA118754152028_102026-F.jpg",
+      "id": "MLB16084358",
+      "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+      "preco": 28.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5736190284?matt_tool=71970283"
+    },
+    {
+      "id": "MLB63152047",
+      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
+      "preco": 49.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
+    },
+    {
+      "id": "MLB52039200",
+      "titulo": "Samsung Galaxy Buds Core branco",
+      "preco": 239.25,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5774870984?matt_tool=71970283"
+    },
+    {
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 70.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_954504-MLA118603044502_102026-F.jpg",
       "frete_gratis": false,
       "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5544307709?matt_tool=71970283"
-    },
-    {
-      "id": "MLB18717798",
-      "titulo": "Fralda Bigfral Derma Plus M 8 Unidades Tamanho Médio",
-      "preco": 23.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_952728-MLA99929505489_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Beleza",
-      "link": "https://produto.mercadolivre.com.br/MLB-3338989740?matt_tool=71970283"
-    },
-    {
-      "id": "MLB15578948",
-      "titulo": "Liquidificador Turbo Power Mondial 550W - L-99 FB",
-      "preco": 64.55,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_744049-MLA99539379058_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5560678817?matt_tool=71970283"
-    },
-    {
-      "id": "MLB25741527",
-      "titulo": "Sanduicheira Elétrica Cadence SAN400 Preta",
-      "preco": 80.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_633183-MLA99468751756_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5549218887?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7625798838?matt_tool=71970283"
     }
   ]
 }
