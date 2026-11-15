@@ -1,50 +1,23 @@
 {
-  "atualizado": "2026-11-15T00:05:28.427388-03:00",
+  "atualizado": "2026-11-15T08:29:50.611790-03:00",
   "itens": [
     {
-      "id": "MLB21672188",
-      "titulo": "Aspirador Pó E Água Soprador Wap Gtw 10 Maré 1400w Cor Cinza",
-      "preco": 245.61,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_627568-MLA108247612641_032026-F.jpg",
+      "id": "MLB18932156",
+      "titulo": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
+      "preco": 127.67,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_620576-MLA99958768953_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3600544593?matt_tool=71970283"
+    },
+    {
+      "id": "MLB49822923",
+      "titulo": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades Turbo PBP90A",
+      "preco": 272.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_728713-MLA99416610212_112025-F.jpg",
       "frete_gratis": true,
       "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5539438645?matt_tool=71970283"
-    },
-    {
-      "id": "MLB16016316",
-      "titulo": "Batedeira Prática Mondial 400W - B-44-B",
-      "preco": 71.76,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_877834-MLA99469550350_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7933439758?matt_tool=71970283"
-    },
-    {
-      "id": "MLB75542419",
-      "titulo": "Percarbonato De Sódio 100% Puro Tira Manchas Alvejante - 1kg Calisul",
-      "preco": 19.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5556797793?matt_tool=71970283"
-    },
-    {
-      "id": "MLB16084358",
-      "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
-      "preco": 28.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5736190284?matt_tool=71970283"
-    },
-    {
-      "id": "MLB63152047",
-      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
-      "preco": 49.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5549209333?matt_tool=71970283"
     },
     {
       "id": "MLB52039200",
@@ -56,13 +29,49 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5774870984?matt_tool=71970283"
     },
     {
-      "id": "MLB39962085",
-      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
-      "preco": 70.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_954504-MLA118603044502_102026-F.jpg",
-      "frete_gratis": false,
+      "id": "MLB34113516",
+      "titulo": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria",
+      "preco": 1099.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_864411-MLA99591392870_122025-F.jpg",
+      "frete_gratis": true,
       "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7625798838?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5533849043?matt_tool=71970283"
+    },
+    {
+      "id": "MLB65579852",
+      "titulo": "Adora Bebê Reborn Bonecas Realista De Silicone Menina 48 Cm",
+      "preco": 132.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_794094-MLA106544309108_022026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-6164567662?matt_tool=71970283"
+    },
+    {
+      "id": "MLB63152047",
+      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
+      "preco": 49.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5440792289?matt_tool=71970283"
+    },
+    {
+      "id": "MLB24544782",
+      "titulo": "Amaciante Downy Concentrado Brisa Intenso 3L Rende 12L",
+      "preco": 39.88,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_622255-MLA99452527752_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-3379519035?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16084358",
+      "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+      "preco": 28.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5736190284?matt_tool=71970283"
     }
   ]
 }
