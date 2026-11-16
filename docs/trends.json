@@ -1,23 +1,23 @@
 {
-  "atualizado": "2026-11-16T00:07:25.228186-03:00",
+  "atualizado": "2026-11-16T09:02:58.751806-03:00",
   "itens": [
     {
-      "id": "MLB21817157",
-      "titulo": "Detergente Lava Louças Ypê Com 6 Unidades Neutro 500ml",
-      "preco": 10.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_981697-MLA99446675498_112025-F.jpg",
+      "id": "MLB52340699",
+      "titulo": "Kit 10 Squishy Mochi Bichinhos Macios De Apertar Antiestresse Brinquedo Sensorial Relaxante Criativo Para Crianças E Adultos Diversão Garantida Tendência Popular TikTok Brasiliana Tech",
+      "preco": 24.38,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_777795-MLA119713643197_102026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-6494693438?matt_tool=71970283"
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-5930534466?matt_tool=71970283"
     },
     {
-      "id": "MLB24075966",
-      "titulo": "Processador de Áudio Digital Taramps Pro 2.4S para Som Automotivo com Crossover e Equalizador 15 Bandas",
-      "preco": 169.89,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_830482-MLA108910560858_032026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-4559000033?matt_tool=71970283"
+      "id": "MLB25656186",
+      "titulo": "Patinete Infantil 3 Rodas com Led/Dobrável Menino/Menina",
+      "preco": 51.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_944838-MLA99549576346_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-3399022201?matt_tool=71970283"
     },
     {
       "id": "MLB53924359",
@@ -29,13 +29,31 @@
       "link": "https://produto.mercadolivre.com.br/MLB-7964782124?matt_tool=71970283"
     },
     {
-      "id": "MLB37700507",
-      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
-      "preco": 83.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
+      "id": "MLB66422734",
+      "titulo": "Controle Remoto Para Tv Samsung Smart Hub + 2 Pilhas Audiogeek",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_704827-MLA115917728237_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7974609912?matt_tool=71970283"
+    },
+    {
+      "id": "MLB19590092",
+      "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500w 220v Branco",
+      "preco": 134.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638677-MLA118516851287_092026-F.jpg",
       "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5555633095?matt_tool=71970283"
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-7925455162?matt_tool=71970283"
+    },
+    {
+      "id": "MLB21817157",
+      "titulo": "Detergente Lava Louças Ypê Com 6 Unidades Neutro 500ml",
+      "preco": 10.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_981697-MLA99446675498_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-6494693438?matt_tool=71970283"
     },
     {
       "id": "MLB52052995",
@@ -45,6 +63,15 @@
       "frete_gratis": true,
       "categoria": "Eletrodomésticos",
       "link": "https://produto.mercadolivre.com.br/MLB-5454728433?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16016316",
+      "titulo": "Batedeira Prática Mondial 400W - B-44-B",
+      "preco": 71.76,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_877834-MLA99469550350_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7933439758?matt_tool=71970283"
     }
   ]
 }
