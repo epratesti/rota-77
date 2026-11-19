@@ -1,6 +1,33 @@
 {
-  "atualizado": "2026-11-18T23:48:29.976064-03:00",
+  "atualizado": "2026-11-19T09:08:56.462510-03:00",
   "itens": [
+    {
+      "id": "MLB24117280",
+      "titulo": "Fone de Ouvido Bluetooth Dapon H02D, Bluetooth 5.1, Modo Sem Fio e P2 3,5mm, Dobrável, Almofadas Macias,Microfone Integrado, Controle no Fone, Carregamento Tipo-C Preto",
+      "preco": 70.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4587377807?matt_tool=71970283"
+    },
+    {
+      "id": "MLB25263382",
+      "titulo": "Fone De Ouvido Bluetooth Bateria de Longa Duração Pro 4 Branco Conecta Rápido Com Case Carregador E Microfone Fast Plug",
+      "preco": 10.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_675790-MLA120004904556_112026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5569083055?matt_tool=71970283"
+    },
+    {
+      "id": "MLB37516784",
+      "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
+      "preco": 70.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_976719-MLA100007783665_122025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-4417459663?matt_tool=71970283"
+    },
     {
       "id": "MLB57471881",
       "titulo": "Brinquedo Bubble Gun Maquina Arminha Pistola Bolha De Sabão",
@@ -11,13 +38,22 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5732946760?matt_tool=71970283"
     },
     {
-      "id": "MLB63152047",
-      "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
-      "preco": 54.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
+      "id": "MLB70393569",
+      "titulo": "Chaleira Elétrica 1,8l Ferve Água Rápido Inox Café Chá Inox",
+      "preco": 37.68,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_811182-MLA111346833822_052026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-6611494338?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5524348509?matt_tool=71970283"
+    },
+    {
+      "id": "MLB19617676",
+      "titulo": "Micro-ondas ME23S 23L Efficient Com Descongelamento Assistido Cor Inox Electrolux",
+      "preco": 539.25,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_940680-MLA99700976956_122025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-5506624567?matt_tool=71970283"
     },
     {
       "id": "MLB17001072",
@@ -29,49 +65,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-7921385954?matt_tool=71970283"
     },
     {
-      "id": "MLB19466433",
-      "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
-      "preco": 58.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+      "id": "MLB75542419",
+      "titulo": "Percarbonato De Sódio 100% Puro Tira Manchas Alvejante - 1kg Calisul",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3798323167?matt_tool=71970283"
-    },
-    {
-      "id": "MLB20662382",
-      "titulo": "Smart TV AIWA 43” Android Full HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-43-BL-02-A",
-      "preco": 1150.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_994322-MLA99533174096_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5546821331?matt_tool=71970283"
-    },
-    {
-      "id": "MLB19938121",
-      "titulo": "Fone Sem Fio Lenovo Gm2 Pro 5.3 Bluetooth - Touch - Gamer Preto Luz Azul",
-      "preco": 53.77,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_896426-MLA118354508175_092026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7992913914?matt_tool=71970283"
-    },
-    {
-      "id": "MLB50376945",
-      "titulo": "Fritadeira Elétrica Air Fryer Quad Fry Elgin 4,2 L, 1400w",
-      "preco": 179.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_927559-MLA99450788218_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-4110427699?matt_tool=71970283"
-    },
-    {
-      "id": "MLB70393569",
-      "titulo": "Chaleira Elétrica 1,8l Ferve Água Rápido Inox Café Chá Inox",
-      "preco": 37.68,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_811182-MLA111346833822_052026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5524348509?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-5556797793?matt_tool=71970283"
     }
   ]
 }
