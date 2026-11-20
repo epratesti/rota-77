@@ -1,41 +1,32 @@
 {
-  "atualizado": "2026-11-19T23:36:12.933152-03:00",
+  "atualizado": "2026-11-20T07:29:45.314173-03:00",
   "itens": [
     {
-      "id": "MLB50376945",
-      "titulo": "Fritadeira Elétrica Air Fryer Quad Fry Elgin 4,2 L, 1400w",
-      "preco": 130.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_927559-MLA99450788218_112025-F.jpg",
+      "id": "MLB15578941",
+      "titulo": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
+      "preco": 99.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-F.jpg",
       "frete_gratis": true,
       "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7798115010?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-7542355322?matt_tool=71970283"
     },
     {
-      "id": "MLB15578948",
-      "titulo": "Liquidificador Turbo Power Mondial 550W - L-99 FB",
-      "preco": 70.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_744049-MLA99539379058_122025-F.jpg",
+      "id": "MLB37700507",
+      "titulo": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
+      "preco": 60.13,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_929681-MLA99450771766_112025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-8017175152?matt_tool=71970283"
+    },
+    {
+      "id": "MLB67578878",
+      "titulo": "Kit Com 48 Pacotes de Figurinhas Panini Para o Álbum Copa do Mundo FIFA 2026",
+      "preco": 77.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_979288-MLA109171693698_042026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5324209777?matt_tool=71970283"
-    },
-    {
-      "id": "MLB20662382",
-      "titulo": "Smart TV AIWA 43” Android Full HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-43-BL-02-A",
-      "preco": 1150.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_994322-MLA99533174096_122025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5546821331?matt_tool=71970283"
-    },
-    {
-      "id": "MLB53924359",
-      "titulo": "Caixa de Som Bluetooth Portátil - JBL Boombox 4 - JBL Pro Sound, AI Sound Boost, 210W RMS, até 34h de Bateria, Bass Boost, IP68, Auracast e USB-C Lossless - Preta",
-      "preco": 2266.24,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_863194-MLA118534430667_092026-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7964782124?matt_tool=71970283"
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-8012086230?matt_tool=71970283"
     },
     {
       "id": "MLB81506699",
@@ -47,31 +38,40 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5540934195?matt_tool=71970283"
     },
     {
-      "id": "MLB43472299",
-      "titulo": "Cubo Antiestresse Cube 5 Sentidos Brinquedos Squishy Cor Variada",
-      "preco": 28.95,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_673379-MLA117657330906_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7869684798?matt_tool=71970283"
+      "id": "MLB19590092",
+      "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500w 220v Branco",
+      "preco": 122.46,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_638677-MLA118516851287_092026-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-6187649140?matt_tool=71970283"
     },
     {
-      "id": "MLB59866601",
-      "titulo": "Jogo De Lençol Queen 3 Peças 400 Fios C/ Elástico Hotel Pink Liso",
-      "preco": 32.9,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_808562-MLA115342218281_072026-F.jpg",
+      "id": "MLB17001015",
+      "titulo": "Sabão Líquido Omo Lavagem Perfeita 3l",
+      "preco": 36.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_652994-MLA84838922409_052025-F.jpg",
       "frete_gratis": false,
       "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-5787642520?matt_tool=71970283"
+      "link": "https://produto.mercadolivre.com.br/MLB-6659371894?matt_tool=71970283"
     },
     {
-      "id": "MLB19466433",
-      "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
-      "preco": 58.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+      "id": "MLB39962085",
+      "titulo": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+      "preco": 57.61,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_954504-MLA118603044502_102026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-3798323167?matt_tool=71970283"
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7952360144?matt_tool=71970283"
+    },
+    {
+      "id": "MLB15029805",
+      "titulo": "Pilha Alcalina Aa Pequena Duracell Com 4 Unidades",
+      "preco": 23.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_745614-MLA116755340171_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7684978618?matt_tool=71970283"
     }
   ]
 }
