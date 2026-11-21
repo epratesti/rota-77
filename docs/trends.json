@@ -1,42 +1,6 @@
 {
-  "atualizado": "2026-11-21T05:45:38.209296-03:00",
+  "atualizado": "2026-11-21T13:56:52.344507-03:00",
   "itens": [
-    {
-      "id": "MLB66422734",
-      "titulo": "Controle Remoto Para Tv Samsung Smart Hub + 2 Pilhas Audiogeek",
-      "preco": 19.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_704827-MLA115917728237_082026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-7974609912?matt_tool=71970283"
-    },
-    {
-      "id": "MLB26885943",
-      "titulo": "Rádio Retrô Vintage Portátil AM/FM Bluetooth USB Marrom",
-      "preco": 62.99,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_971330-MLA118049048726_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Eletrônicos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5583101733?matt_tool=71970283"
-    },
-    {
-      "id": "MLB35762220",
-      "titulo": "Conjunto 5 Carrinhos Hot Wheels - Mattel",
-      "preco": 70.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_724815-MLA99876815105_112025-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-7916430436?matt_tool=71970283"
-    },
-    {
-      "id": "MLB79315772",
-      "titulo": "Squishy Bolinha Médio Garra Colorido Slow Rising para Crianças",
-      "preco": 23.75,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_915176-MLA119049397119_102026-F.jpg",
-      "frete_gratis": false,
-      "categoria": "Brinquedos e Festas",
-      "link": "https://produto.mercadolivre.com.br/MLB-5314698781?matt_tool=71970283"
-    },
     {
       "id": "MLB15578948",
       "titulo": "Liquidificador Turbo Power Mondial 550W - L-99 FB",
@@ -47,22 +11,13 @@
       "link": "https://produto.mercadolivre.com.br/MLB-5324209777?matt_tool=71970283"
     },
     {
-      "id": "MLB52052995",
-      "titulo": "Air Fryer Philco 6,5l Visor Glass E Redstone 1700w Paf65a Preto 127v.",
-      "preco": 302.41,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_761173-MLA99475995202_112025-F.jpg",
-      "frete_gratis": true,
-      "categoria": "Eletrodomésticos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5564299913?matt_tool=71970283"
-    },
-    {
-      "id": "MLB53817780",
-      "titulo": "Câmera Lâmpada Jortan Giratória 360° Visão Noturna Wi-Fi Full HD E27",
-      "preco": 56.0,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_967723-MLA89628184976_082025-F.jpg",
+      "id": "MLB80559379",
+      "titulo": "Mini Mixer Elétrico Recarregável USB 3 Velocidades – Espumador de Leite Profissional em Aço Inoxidável – Misturador Portátil para Cappuccino, Café, Matcha, Shakes e Ovos",
+      "preco": 19.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_958277-MLA119493208264_112026-F.jpg",
       "frete_gratis": false,
-      "categoria": "Casa",
-      "link": "https://produto.mercadolivre.com.br/MLB-7974507442?matt_tool=71970283"
+      "categoria": "Eletrodomésticos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7825886696?matt_tool=71970283"
     },
     {
       "id": "MLB62311864",
@@ -72,6 +27,51 @@
       "frete_gratis": true,
       "categoria": "Casa",
       "link": "https://produto.mercadolivre.com.br/MLB-5574623017?matt_tool=71970283"
+    },
+    {
+      "id": "MLB16084358",
+      "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+      "preco": 28.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Casa",
+      "link": "https://produto.mercadolivre.com.br/MLB-5736190284?matt_tool=71970283"
+    },
+    {
+      "id": "MLB66422734",
+      "titulo": "Controle Remoto Para Tv Samsung Smart Hub + 2 Pilhas Audiogeek",
+      "preco": 19.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_704827-MLA115917728237_082026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-7974609912?matt_tool=71970283"
+    },
+    {
+      "id": "MLB34113516",
+      "titulo": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria",
+      "preco": 1239.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_864411-MLA99591392870_122025-F.jpg",
+      "frete_gratis": true,
+      "categoria": "Eletrônicos",
+      "link": "https://produto.mercadolivre.com.br/MLB-3988846231?matt_tool=71970283"
+    },
+    {
+      "id": "MLB74451511",
+      "titulo": "Pokémon ME05 Escuridão Absoluta Booster 6 Cartas Copag",
+      "preco": 12.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_670757-MLA118001948637_092026-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-8028000906?matt_tool=71970283"
+    },
+    {
+      "id": "MLB35762220",
+      "titulo": "Conjunto 5 Carrinhos Hot Wheels - Mattel",
+      "preco": 70.0,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_724815-MLA99876815105_112025-F.jpg",
+      "frete_gratis": false,
+      "categoria": "Brinquedos e Festas",
+      "link": "https://produto.mercadolivre.com.br/MLB-7916430436?matt_tool=71970283"
     }
   ]
 }
